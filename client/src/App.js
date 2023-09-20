@@ -7,7 +7,16 @@ export default function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route exact path="/" element={
+        <Route exact path='/' element={
+          <HomeHeader />}
+          />
+        <Route path='/women' element={
+          <HomeHeader />}
+          />
+        <Route path='/men' element={
+          <HomeHeader />}
+          />
+        <Route path='/kids' element={
           <HomeHeader />}
           />
       </Routes>
