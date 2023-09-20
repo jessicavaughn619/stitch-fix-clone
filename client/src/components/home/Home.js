@@ -7,7 +7,7 @@ export default function Home({data}) {
     return (
         <>
         <HomeHeader data={data}/>
-        <HowItWorks />
+        <HowItWorks data={data.howItWorks}/>
         <Brands />
         <Testimonials />
         </>
