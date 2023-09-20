@@ -1,7 +1,8 @@
 import Header from './components/header/Header';
-import HomeHeader from './components/body/HomeHeader';
+import Home from './components/home/Home';
 import { Routes, Route } from 'react-router-dom'
-import data from './components/body/homeheader-content';
+import data from './components/home/homeheader-content';
+import Footer from './components/footer/Footer';
 
 export default function App() {
 
@@ -14,18 +15,19 @@ export default function App() {
       <Header />
       <Routes>
         <Route exact path='/' element={
-          <HomeHeader data={womenStyle}/>}
+          <Home data={womenStyle}/>}
           />
         <Route path='/women' element={
-          <HomeHeader data={womenStyle}/>}
+          <Home data={womenStyle}/>}
           />
         <Route path='/men' element={
-          <HomeHeader data={menStyle}/>}
+          <Home data={menStyle}/>}
           />
         <Route path='/kids' element={
-          <HomeHeader data={kidsStyle}/>}
+          <Home data={kidsStyle}/>}
           />
       </Routes>
+      <Footer />
     </div>
   );
 }
