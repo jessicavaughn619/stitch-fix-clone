@@ -1,4 +1,4 @@
-import './homeheader.css'
+import './homeHeader.css'
 
 export default function HomeHeader({ data }) {
     const { content, image1, image1Alt, image2, image2Alt} = data;
