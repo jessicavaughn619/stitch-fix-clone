@@ -1,3 +1,5 @@
+import './howItWorks.css'
+
 export default function Step({step}) {
     const { image, heading, detail } = step;
 

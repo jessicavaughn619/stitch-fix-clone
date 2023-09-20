@@ -1,5 +1,5 @@
-import HomeHeader from "./HomeHeader";
-import HowItWorks from "./HowItWorks";
+import HomeHeader from "./homeHeader/HomeHeader";
+import HowItWorks from "./howItWorks/HowItWorks";
 import Brands from "./Brands";
 import Testimonials from "./Testimonials";
 

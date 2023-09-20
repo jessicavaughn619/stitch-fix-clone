@@ -1,8 +1,8 @@
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import { Routes, Route } from 'react-router-dom'
-import data from './components/home/homeheader-content';
 import Footer from './components/footer/Footer';
+import data from './components/home/homeHeader/homeHeader-content';
 
 export default function App() {
 

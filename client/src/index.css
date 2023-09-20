@@ -6,6 +6,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: BrandonText, sans-serif;
 }
 
 :root {
@@ -48,7 +49,9 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
 }
 
 h3 {
