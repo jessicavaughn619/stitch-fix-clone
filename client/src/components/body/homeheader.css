@@ -1,0 +1,21 @@
+.container_image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.fashion-image {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.container_content {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    align-items: start;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    gap: .5rem;
+}
