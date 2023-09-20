@@ -6,6 +6,7 @@
 }
 
 .category-links {
+    position: relative;
     display: flex;
     gap: 1.5rem;
     cursor: pointer;
