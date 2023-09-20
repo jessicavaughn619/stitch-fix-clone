@@ -1,27 +1,25 @@
 .container__header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: .5rem;
+    gap: 1rem;
 }
+
+.container__nav {
+    display: flex;
+}
+
 
 .category-links {
     display: flex;
     gap: 1.5rem;
     cursor: pointer;
-    align-items: center;
-    background-position-y: 100%;
-    background-repeat: no-repeat;
-    background-size: 0 4px;
-    transition: background-size .4s;
 }
 
 a {
-    align-items: center;
     background-position-y: 100%;
     background-repeat: no-repeat;
     background-size: 0 4px;
-    display: flex;
     transition: background-size .4s;
     padding: 0 .875rem;
 }

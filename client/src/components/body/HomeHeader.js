@@ -1,17 +1,17 @@
 import './homeheader.css'
-import IMG1 from '../../images/fashion-woman-1.jpg'
-import IMG2 from '../../images/fashion-woman-2.jpg'
 
-export default function HomeHeader() {
+export default function HomeHeader({ data }) {
+    const { content, image1, image1Alt, image2, image2Alt} = data;
+
     return (
         <div className="container__homeheader">
             <div className="container_content">
-                <h2>Personalized fall finds, thanks to your Stylist.</h2>
+                <h2>{content}</h2>
                 <button className="btn">TAKE YOUR STYLE QUIZ</button>
             </div>
             <div className="container_image">
-                <img src={IMG1} className="fashion-image" alt="fashionable woman"/>
-                <img src={IMG2} className="fashion-image" alt="fashionable woman"/>
+                <img src={image1} className="fashion-image" alt={image1Alt}/>
+                <img src={image2} className="fashion-image" alt={image2Alt}/>
             </div>
         </div>
     )

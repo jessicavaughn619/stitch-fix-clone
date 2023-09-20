@@ -1,6 +1,7 @@
 import Nav from "./Nav"
 import './header.css'
 import { NavLink } from "react-router-dom"
+import { BsBag } from 'react-icons/bs'
 
 export default function Header() {
 
@@ -15,9 +16,7 @@ export default function Header() {
             <NavLink to="/kids" className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "active" : ""}>Kids</NavLink>
             </div>
-            <div>
-            <span>Cart</span>
-            </div>
+            <BsBag />
         </header>
     )
 }
