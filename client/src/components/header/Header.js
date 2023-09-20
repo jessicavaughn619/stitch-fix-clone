@@ -9,11 +9,11 @@ export default function Header() {
             <Nav />
             <div className="category-links">
             <NavLink to="/women" className={({ isActive, isPending }) =>
-                    isPending ? "" : isActive ? "active" : "hover"}>Women</NavLink>
+                    isPending ? "pending" : isActive ? "active" : ""}>Women</NavLink>
             <NavLink to="/men" className={({ isActive, isPending }) =>
-                    isPending ? "" : isActive ? "active" : "hover"}>Men</NavLink>
+                    isPending ? "pending" : isActive ? "active" : ""}>Men</NavLink>
             <NavLink to="/kids" className={({ isActive, isPending }) =>
-                    isPending ? "" : isActive ? "active" : "hover"}>Kids</NavLink>
+                    isPending ? "pending" : isActive ? "active" : ""}>Kids</NavLink>
             </div>
             <div>
             <span>Cart</span>
