@@ -1,9 +1,6 @@
 import IMG1 from '../../../images/fashion-woman-1.webp'
-import IMG2 from '../../../images/fashion-woman-2.webp'
-import IMG3 from '../../../images/fashion-man-1.webp'
-import IMG4 from '../../../images/fashion-man-2.webp'
-import IMG5 from '../../../images/fashion-kid-1.webp'
-import IMG6 from '../../../images/fashion-kid-2.webp'
+import IMG2 from '../../../images/fashion-man-1.webp'
+import IMG3 from '../../../images/fashion-kid-1.webp'
 import STEP1 from '../../../images/women-1.webp'
 import STEP2 from '../../../images/women-2.webp'
 import STEP3 from '../../../images/women-3.webp'
@@ -15,10 +12,8 @@ const data = [
     {
         style: "women",
         content: "Personalized fall finds, thanks to your Stylist.",
-        image1: IMG1,
-        image1Alt: "Fashionable woman",
-        image2: IMG2,
-        image2Alt: "Fashionable woman",
+        image: IMG1,
+        imageAlt: "Fashionable woman",
         howItWorks: 
         [{
             image: STEP1,
@@ -39,10 +34,8 @@ const data = [
     { 
         style: "men",
         content: "Your personal style, delivered. So easy.",
-        image1: IMG3,
-        image1Alt: "Fashionable man",
-        image2: IMG4,
-        image2Alt: "Fashionable man",
+        image: IMG2,
+        imageAlt: "Fashionable man",
         howItWorks: 
         [{
             image: STEP4,
@@ -63,10 +56,8 @@ const data = [
     {
         style: "kids",
         content: "Their new fall outfits, made easy.",
-        image1: IMG5,
-        image1Alt: "Fashionable kids",
-        image2: IMG6,
-        image2Alt: "Fashionable kids",
+        image: IMG3,
+        imageAlt: "Fashionable kids",
         howItWorks: [
             {image: "",
             heading: "Tell us about their style",
