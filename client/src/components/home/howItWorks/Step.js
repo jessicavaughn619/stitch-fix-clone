@@ -5,9 +5,9 @@ export default function Step({step}) {
 
     return (
         <div className="container_image_content">
-        <div className="image-wrapper">
+        {image ? <div className="image-wrapper">
             <img src={image} alt={step}></img>
-        </div>
+        </div> : null}
         <p className="heading">{heading}</p>
         <p className="detail">{detail}</p>
     </div>

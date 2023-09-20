@@ -68,15 +68,15 @@ const data = [
         image2: IMG6,
         image2Alt: "Fashionable kids",
         howItWorks: [
-            {image: null,
+            {image: "",
             heading: "Tell us about their style",
         detail: "Share your price range, plus your kid's style and sizes. We'll send 10 pieces just for them. No subscription required."},
         {
-            image: null,
+            image: "",
             heading: "Try it on",
             detail: "Omg it's here! Unbox their Fix together, and have them try everything on when they're feeling cooperative. Keep their favorites, send back the rest."
         },
-        {image: null,
+        {image: "",
         heading: "Free shipping & returns",
     detail: "Always. We even include a prepaid return envelope."}
         ]

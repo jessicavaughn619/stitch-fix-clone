@@ -2,6 +2,7 @@
     background: var(--color-bg);
     padding: 1rem 1rem 3rem;
     display: block;
+    margin-top: 1rem;
 }
 
 .container__how-it-works {
