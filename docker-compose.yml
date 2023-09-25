@@ -1,0 +1,35 @@
+services:
+  db:
+    image: postgres:15
+    volumes:
+      - ./tmp/db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: sfc-user
+      POSTGRES_DB: sfc
+    working_dir: /api
+  api:
+    build: api
+    image: sfc-backend
+    stdin_open: true
+    tty: true
+    ports:
+      - "3000:3000"
+    working_dir: /api
+    volumes:
+      - ./api:/api
+    depends_on:
+      - db
+    environment: 
+      DATABASE_URL: postgres://sfc-user:password@db/sfc
+      RAILS_MASTER_KEY: anything
+  client:
+    build: client
+    image: sfc-frontend
+    ports:
+      - "4000:4000"
+    working_dir: /client
+    volumes:
+      - ./client:/client
+    environment:
+      POSTGRES_PASSWORD: password

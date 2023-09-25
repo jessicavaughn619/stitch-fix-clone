@@ -1,0 +1,136 @@
+  [1m[35m (153.2ms)[0m  [1m[35mCREATE DATABASE "react_rails_api_project_template_development" ENCODING = 'unicode'[0m
+  [1m[35m (44.4ms)[0m  [1m[35mCREATE DATABASE "react_rails_api_project_template_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2023-09-19 16:50:51 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jessica/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jessica/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.0ms | Allocations: 526)
+Completed 200 OK in 12ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4370)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-09-19 16:50:52 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for ::1 at 2023-09-20 08:52:27 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jessica/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jessica/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.4ms | Allocations: 384)
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2746)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-09-20 08:52:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/string" for 127.0.0.1 at 2023-09-20 13:04:27 -0600
+Processing by FallbackController#index as HTML
+  Parameters: {"path"=>"string"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1696)
+
+
+  
+ArgumentError (`render file:` should be given the absolute path to a file. 'public/index.html' was given instead):
+  
+app/controllers/fallback_controller.rb:7:in `index'
+Started GET "/string" for 127.0.0.1 at 2023-09-20 13:05:09 -0600
+Processing by FallbackController#index as HTML
+  Parameters: {"path"=>"string"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 180)
+
+
+  
+ArgumentError (`render file:` should be given the absolute path to a file. 'public/index.html' was given instead):
+  
+app/controllers/fallback_controller.rb:7:in `index'
+Started GET "/string" for 127.0.0.1 at 2023-09-20 13:06:07 -0600
+Processing by FallbackController#index as HTML
+  Parameters: {"path"=>"string"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1696)
+
+
+  
+ArgumentError (`render file:` should be given the absolute path to a file. 'public/index.html' was given instead):
+  
+app/controllers/fallback_controller.rb:7:in `index'
+Started GET "/[object%20Object]" for 127.0.0.1 at 2023-09-20 13:17:05 -0600
+Processing by FallbackController#index as HTML
+  Parameters: {"path"=>"[object Object]"}
+Completed 500 Internal Server Error in 1ms (Allocations: 178)
+
+
+  
+ArgumentError (`render file:` should be given the absolute path to a file. 'public/index.html' was given instead):
+  
+app/controllers/fallback_controller.rb:7:in `index'
+Started GET "/[object%20Object]" for 127.0.0.1 at 2023-09-20 13:17:41 -0600
+Processing by FallbackController#index as HTML
+  Parameters: {"path"=>"[object Object]"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1696)
+
+
+  
+ArgumentError (`render file:` should be given the absolute path to a file. 'public/index.html' was given instead):
+  
+app/controllers/fallback_controller.rb:7:in `index'
+Started GET "/[object%20Object]" for 127.0.0.1 at 2023-09-20 13:17:46 -0600
+Processing by FallbackController#index as HTML
+  Parameters: {"path"=>"[object Object]"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 180)
+
+
+  
+ArgumentError (`render file:` should be given the absolute path to a file. 'public/index.html' was given instead):
+  
+app/controllers/fallback_controller.rb:7:in `index'
+Started GET "/[object%20Object]" for 127.0.0.1 at 2023-09-20 13:18:37 -0600
+Processing by FallbackController#index as HTML
+  Parameters: {"path"=>"[object Object]"}
+Completed 500 Internal Server Error in 0ms (Allocations: 178)
+
+
+  
+ArgumentError (`render file:` should be given the absolute path to a file. 'public/index.html' was given instead):
+  
+app/controllers/fallback_controller.rb:7:in `index'
+Started GET "/[object%20Object]" for 127.0.0.1 at 2023-09-20 13:19:41 -0600
+Processing by FallbackController#index as HTML
+  Parameters: {"path"=>"[object Object]"}
+Completed 500 Internal Server Error in 1ms (Allocations: 180)
+
+
+  
+ArgumentError (`render file:` should be given the absolute path to a file. 'public/index.html' was given instead):
+  
+app/controllers/fallback_controller.rb:7:in `index'
+Started GET "/string" for 127.0.0.1 at 2023-09-20 14:22:43 -0600
+Processing by FallbackController#index as HTML
+  Parameters: {"path"=>"string"}
+Completed 500 Internal Server Error in 1ms (Allocations: 178)
+
+
+  
+ArgumentError (`render file:` should be given the absolute path to a file. 'public/index.html' was given instead):
+  
+app/controllers/fallback_controller.rb:7:in `index'
+Started GET "/" for ::1 at 2023-09-22 11:57:37 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jessica/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jessica/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.4ms | Allocations: 384)
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2746)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-09-22 11:57:37 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for 172.18.0.1 at 2023-09-25 19:21:48 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.8ms | Allocations: 411)
+Completed 200 OK in 19ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 3520)
+
+
+Started GET "/favicon.ico" for 172.18.0.1 at 2023-09-25 19:21:48 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
