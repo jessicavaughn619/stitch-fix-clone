@@ -1,0 +1,23 @@
+.wrapper__brands {
+    display: block;
+    background: var(--color-white);
+}
+
+.container__brands {
+    display: block;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.brands_info {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    display: block;
+}
+
+.brands_list {
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(8, 1fr);
+}

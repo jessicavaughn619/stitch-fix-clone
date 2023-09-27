@@ -6,6 +6,7 @@ import data from './components/home/homeHeader/homeHeader-content';
 
 export default function App() {
 
+  const homeStyle = data.find(item => item.style === "home")
   const womenStyle = data.find(item => item.style === "women")
   const menStyle = data.find(item => item.style === "men")
   const kidsStyle = data.find(item => item.style === "kids")
@@ -15,7 +16,7 @@ export default function App() {
       <Header />
       <Routes>
         <Route exact path='/' element={
-          <Home data={womenStyle}/>}
+          <Home data={homeStyle}/>}
           />
         <Route path='/women' element={
           <Home data={womenStyle}/>}

@@ -1,6 +1,7 @@
 import IMG1 from '../../../images/fashion-woman-1.webp'
 import IMG2 from '../../../images/fashion-man-1.webp'
 import IMG3 from '../../../images/fashion-kid-1.webp'
+import IMG4 from '../../../images/fashion-home.webp'
 import STEP1 from '../../../images/women-1.webp'
 import STEP2 from '../../../images/women-2.webp'
 import STEP3 from '../../../images/women-3.webp'
@@ -9,6 +10,28 @@ import STEP5 from '../../../images/men-2.webp'
 import STEP6 from '../../../images/men-3.webp'
 
 const data = [
+    {
+        style: "home",
+        content: "Personalized fall finds, thanks to your Stylist.",
+        image: IMG4,
+        imageAlt: "Fashionable models",
+        howItWorks: 
+        [{
+            image: STEP1,
+            heading: "Take your style quiz",
+            detail: "Tell us about your style, sizes, and budget -the more we know, the more your Stylist can help."
+        },
+        {
+            image: STEP2,
+            heading: "Share your style goals",
+            detail: "Let your Stylist know what you're looking for via notes. They'll select 5 personalized pieces, and send your 'Fix' box straight to your door."
+        },
+        {
+        image: STEP3,
+        heading: "Get your Fix",
+        detail: "There's a $20 styling fee that's applied to what you keep."
+    }]
+},
     {
         style: "women",
         content: "Personalized fall finds, thanks to your Stylist.",

@@ -1,0 +1,23 @@
+.wrapper__styles {
+    display: block;
+    background: var(--color-white);
+}
+
+.container__styles {
+    display: block;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.styles_info {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    display: block;
+}
+
+.styles_swiper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 1.5rem;
+}

@@ -1,0 +1,17 @@
+import './styles.css'
+
+export default function Styles() {
+    return (
+        <div className="wrapper__styles">
+        <section className="container__styles">
+            <div className="styles_info">
+                <h2>Tell us what you like, we'll find what you love</h2>
+                <p>We get to know your style, fit and price range based on your style quiz, requests and feedback.</p>
+            </div>
+            <div className="styles_swiper">
+                Swiper
+            </div>
+        </section>
+        </div>
+    )
+}
