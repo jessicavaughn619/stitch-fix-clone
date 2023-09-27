@@ -5,6 +5,7 @@
 .container__getStarted {
     align-items: center;
     border: 22px solid var(--color-bright);
+    background: var(--color-white);
     display: flex;
     flex-direction: column;
     justify-content: center;
