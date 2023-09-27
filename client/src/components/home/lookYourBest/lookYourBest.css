@@ -5,13 +5,16 @@
 
 .container__lookYourBest {
     display: block;
-    padding: 3rem 1rem 1rem 1rem;
 }
 
 .lookYourBest_info {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     display: block;
+}
+
+h2 {
+    padding: 1.5rem;
 }
 
 .lookYourBest_icons {

@@ -3,6 +3,7 @@
     align-items: center;
     padding: .5rem;
     gap: 1rem;
+    background: var(--color-white);
 }
 
 .container__nav {
