@@ -1,0 +1,17 @@
+.wrapper__getStarted {
+    display: block;
+    background: var(--color-bright);
+    padding: 1.5rem;
+}
+
+.container__getStarted {
+    display: block;
+    padding: 3rem 1rem;
+    background: var(--color-white);
+}
+
+.getStarted_info {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    display: block;
+}

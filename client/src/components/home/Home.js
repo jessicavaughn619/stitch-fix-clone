@@ -1,8 +1,10 @@
 import HomeHeader from "./homeHeader/HomeHeader";
 import HowItWorks from "./howItWorks/HowItWorks";
 import Brands from "./brands/Brands";
-import Testimonials from "./Testimonials";
-import Styles from "./Styles";
+import Testimonials from "./testimonials/Testimonials";
+import Styles from "./styles/Styles";
+import LookYourBest from './lookYourBest/LookYourBest'
+import GetStarted from "./getStarted/GetStarted";
 
 export default function Home({data}) {
     return (
@@ -12,6 +14,8 @@ export default function Home({data}) {
         <Styles />
         <Brands />
         <Testimonials />
+        <LookYourBest />
+        <GetStarted />
         </>
     )
 }

@@ -1,0 +1,19 @@
+.wrapper__lookYourBest {
+    display: block;
+    background: var(--color-bright-variant);
+}
+
+.container__lookYourBest {
+    display: block;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.lookYourBest_info {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    display: block;
+}
+
+.lookYourBest_icons {
+    background-color: var(--color-white);
+}
