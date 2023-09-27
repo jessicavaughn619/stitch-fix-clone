@@ -1,13 +1,14 @@
 .wrapper__getStarted {
     display: block;
-    background: var(--color-bright);
-    padding: 1.5rem;
 }
 
 .container__getStarted {
-    display: block;
-    padding: 3rem 1rem;
-    background: var(--color-white);
+    align-items: center;
+    border: 22px solid var(--color-bright);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 2rem;
 }
 
 .getStarted_info {
