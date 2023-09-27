@@ -18,7 +18,7 @@ export default function FaqBullet({ faq }) {
             {isExpand ? 
             <div className="faq_bullet_expand">
             <p className="answer">{answer}</p>
-            {moreInfoTitle ? <a href={moreInfoLink} className="moreInfo">{moreInfoTitle}</a> : null}
+            {moreInfoTitle ? <div className="more_info"><a href={moreInfoLink} id="more_info">{moreInfoTitle}</a></div> : null}
             </div> : null}
         </div>
     )

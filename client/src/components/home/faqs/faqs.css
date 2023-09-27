@@ -47,7 +47,11 @@ h4 {
     font-weight: bold;
 }
 
-a {
+.more_info {
+    margin-top: .5rem;
+}
+
+#more_info {
     padding: 0;
     font-weight: bold;
     color: var(--color-primary);
