@@ -1,5 +1,6 @@
 .wrapper__faqs {
     display: block;
+    background: var(--color-white);
 }
 
 .container__faqs {
@@ -32,6 +33,10 @@ h4 {
 .faq_bullet_collapse {
     display: flex;
     gap: .5rem;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    max-width: 510px;
 }
 
 .faq_bullet_expand {
@@ -41,6 +46,10 @@ h4 {
 
 .expand_collapse_icon {
     font-weight: bold;
+    align-items: center;
+    display: flex;
+    padding: 0 0.5rem;
+    z-index: 1;
 }
 
 .question {
