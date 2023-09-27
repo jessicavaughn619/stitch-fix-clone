@@ -5,6 +5,7 @@ import Testimonials from "./testimonials/Testimonials";
 import Styles from "./styles/Styles";
 import LookYourBest from './lookYourBest/LookYourBest'
 import GetStarted from "./getStarted/GetStarted";
+import Faqs from "./faqs/Faqs";
 
 export default function Home({data}) {
     return (
@@ -16,6 +17,7 @@ export default function Home({data}) {
         <Testimonials />
         <LookYourBest />
         <GetStarted />
+        <Faqs />
         </>
     )
 }
