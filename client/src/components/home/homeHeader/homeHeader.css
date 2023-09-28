@@ -16,9 +16,10 @@
 
 .container_content {
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     padding: 2rem 1.5rem;
     align-items: flex-start;
-    background-color: var(--color-primary);
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .5)), #004f58;
     color: var(--color-white);
 }
