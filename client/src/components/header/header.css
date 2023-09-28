@@ -9,7 +9,6 @@
 .container__header {
     display: flex;
     align-items: center;
-    gap: 1rem;
     background: var(--color-white);
     height: 3rem;
     position: relative;
@@ -48,7 +47,6 @@
     width: 100%;
     padding-top: .25rem;
 }
-
 
 .category-links {
     display: flex;
