@@ -6,7 +6,7 @@ export default function HomeHeader({ data }) {
     return (
         <div className="container__homeheader">
             <div className="container_content">
-                <h2>{content}</h2>
+                <h1>{content}</h1>
                 <button className="btn">TAKE YOUR STYLE QUIZ</button>
             </div>
             <div className="container_image">

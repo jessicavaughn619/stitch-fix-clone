@@ -12,7 +12,7 @@ import STEP6 from '../../../images/men-3.webp'
 const data = [
     {
         style: "home",
-        content: "Personalized fall finds, thanks to your Stylist.",
+        content: "Picked by our Stylists, just for you.",
         image: IMG4,
         imageAlt: "Woman and man model wearing Stitch Fix clothing in a city setting.",
         howItWorks: 
