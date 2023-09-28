@@ -163,3 +163,10 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 28ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 2330)
 
 
+Started GET "/" for 192.168.65.1 at 2023-09-28 12:08:37 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.2ms | Allocations: 298)
+Completed 200 OK in 23ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 2331)
+
+
