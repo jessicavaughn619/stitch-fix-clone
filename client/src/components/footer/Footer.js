@@ -1,6 +1,14 @@
 import './footer.css'
+import { useState } from 'react'
+import MoreInfo from './MoreInfo'
 
 export default function Footer() {
+    const [isExpand, setIsExpand] = useState(false)
+
+    function handleClick() {
+        setIsExpand(isExpand => !isExpand)
+    }
+
     return (
         <div className="wrapper__footer">
             <footer className="container__footer">
@@ -14,7 +22,11 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="more_info">
-                    <button className="btn-round">More Info +</button>
+                    <div className="wrapper__btn-round">
+                    <button className="btn-round" onClick={handleClick}>More Info {isExpand ? '-' : '+'}</button>
+                    </div>
+                    {isExpand ? 
+                    <MoreInfo /> : null}
                 </div>
                 <div className="footer_links">
                 Footer Links

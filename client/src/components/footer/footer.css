@@ -31,14 +31,18 @@
 
 .more_info {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper__btn-round {
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
 }
 
 .btn-round {
-    display: inline-flex;
-    align-items: center;
     cursor: pointer;
-    justify-content: center;
     letter-spacing: .0175em;
     font-size: .875rem;
     text-transform: uppercase;
@@ -51,7 +55,7 @@
     white-space: nowrap;
 }
 
-.btn-round::before {
+.wrapper__btn-round::before {
     content: '';
     border-bottom: 1px solid #515762;
     flex-grow: 1;
@@ -61,7 +65,7 @@
     visibility: visible;
 }
 
-.btn-round::after {
+.wrapper__btn-round::after {
     content: '';
     border-bottom: 1px solid #515762;
     flex-grow: 1;
@@ -73,4 +77,9 @@
 
 .btn-round:hover {
     background-color: rgba(37, 40, 45, .1);
+    border-radius: 1000px;
+}
+
+.btn-round:active {
+    background-color: rgba(37, 40, 45, .2);
 }
