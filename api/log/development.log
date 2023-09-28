@@ -170,3 +170,14 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 23ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 2331)
 
 
+Started GET "/" for 192.168.65.1 at 2023-09-28 18:21:46 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.4ms | Allocations: 298)
+Completed 200 OK in 11ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 2330)
+
+
+Started GET "/favicon.ico" for 192.168.65.1 at 2023-09-28 18:21:46 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  

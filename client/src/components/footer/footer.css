@@ -54,6 +54,7 @@
     transition: background-color .4s;
     text-align: center;
     white-space: nowrap;
+    border-radius: 1000px;
 }
 
 .wrapper__btn-round::before {

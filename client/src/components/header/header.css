@@ -90,4 +90,5 @@ a:hover {
     height: 24px;
     width: 24px;
     line-height: 1rem;
+    cursor: pointer;
 }
