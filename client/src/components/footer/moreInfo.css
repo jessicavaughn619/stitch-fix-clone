@@ -28,3 +28,31 @@
 .title a{
     padding: 0;
 }
+
+.wrapper__social_links {
+    border-block-end: 1px solid #d9d9d9;
+    border-block-start: 1px solid #d9d9d9;
+    margin-block-end: 2px;
+    display: grid;
+}
+
+.social_links {
+    padding-block-start: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    padding-block-end: 1rem;
+    gap: .5rem;
+}
+
+.social_links a {
+    border-radius: 10rem;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.social_links a:hover {
+    background-color: rgba(37, 40, 45, .1);
+}
