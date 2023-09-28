@@ -55,4 +55,15 @@
 
 .social_links a:hover {
     background-color: rgba(37, 40, 45, .1);
+    background-image: none;
+}
+
+.social_links a:active {
+    background-color: rgba(37,40,45,.2);
+}
+
+.social_links a:focus {
+    outline: 2px solid #008182;
+    outline-offset: 1px;
+    background-color: rgba(37,40,45,.2);
 }
