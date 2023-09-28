@@ -14,10 +14,31 @@
     display: block;
 }
 
-.brands_list {
+.brands_info p {
+    margin-bottom: 2rem;
+}
+
+.wrapper__brands_list {
+    display: flex;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.container__brands_list {
     margin-right: auto;
     margin-left: auto;
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(8, 1fr);
+}
+
+.wrapper__brand {
+    height: 62px;
+    width: 100px;
+}
+
+.brand_logo {
+    object-fit: contain;
 }
