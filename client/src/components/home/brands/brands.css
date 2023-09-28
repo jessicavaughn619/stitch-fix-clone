@@ -24,6 +24,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     width: 100%;
+    scrollbar-width: auto;
 }
 
 .container__brands_list {
