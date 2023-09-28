@@ -47,6 +47,11 @@ body {
   text-transform: uppercase;
   white-space: nowrap;
   text-decoration: none;
+  transition: background-color .4s;
+}
+
+.btn:hover {
+  background-color: white;
 }
 
 
