@@ -1,35 +1,35 @@
 const serviceData = [
     {
         title: "Gift Cards",
-        link: ""
+        link: "https://www.stitchfix.com/gifts"
     },
     {
         title: "iPhone App",
-        link: ""
+        link: "https://www.stitchfix.com/iphone-app"
     },
     {
         title: "Plus Sizes",
-        link: ""
+        link: "https://www.stitchfix.com/women/plus"
     },
     {
         title: "Maternity",
-        link: ""
+        link: "https://www.stitchfix.com/women/maternity"
     },
     {
         title: "Petite",
-        link: ""
+        link: "https://www.stitchfix.com/women/petite"
     },
     {
         title: "Big & Tall",
-        link: ""
+        link: "https://www.stitchfix.com/men/big-tall"
     },
     {
         title: "Women's Jeans",
-        link: ""
+        link: "https://www.stitchfix.com/women/jeans"
     },
     {
         title: "Business Casual",
-        link: ""
+        link: "https://www.stitchfix.com/women/business-casual"
     }
 ]
 

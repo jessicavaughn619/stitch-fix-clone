@@ -1,35 +1,35 @@
 const companyData = [
     {
         title: "About Us",
-        link: ""
+        link: "https://www.stitchfix.com/about"
     },
     {
         title: "Returns",
-        link: ""
+        link: "https://support.stitchfix.com/hc/en-us/articles/203484970-Returns#direct"
     },
     {
         title: "Social Impact",
-        link: ""
+        link: "https://www.stitchfix.com/impact"
     },
     {
         title: "Press",
-        link: ""
+        link: "https://newsroom.stitchfix.com/"
     },
     {
         title: "Investor Relations",
-        link: ""
+        link: "https://investors.stitchfix.com/"
     },
     {
         title: "Careers",
-        link: ""
+        link: "https://www.stitchfix.com/careers"
     },
     {
         title: "Tech Blog",
-        link: ""
+        link: "https://multithreaded.stitchfix.com/blog/"
     },
     {
         title: "Affiliates",
-        link: ""
+        link: "https://www.stitchfix.com/all/affiliates"
     }
 ]
 
