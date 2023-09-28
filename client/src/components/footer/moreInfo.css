@@ -71,3 +71,15 @@
     outline-offset: 1px;
     background-color: rgba(37,40,45,.2);
 }
+
+.wrapper__download {
+    display: flex;
+    justify-content: center;
+    margin-block: 2rem;
+}
+
+.download_icon {
+    display: block;
+    cursor: pointer;
+    height: 3.5rem;
+}

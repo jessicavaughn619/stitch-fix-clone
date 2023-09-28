@@ -2,6 +2,7 @@ import './moreInfo.css'
 import serviceData from './serviceData'
 import companyData from './companyData'
 import socialData from './socialData'
+import download from '../../images/app_store.png'
 
 export default function MoreInfo() {
 
@@ -34,7 +35,9 @@ export default function MoreInfo() {
                     {allSocial}
                 </div>
             </div>
-            <div className="download">Download on App Store</div>
+            <div className="wrapper__download">
+                <img src={download} className="download_icon"></img>
+            </div>
         </div>
     )
 }
