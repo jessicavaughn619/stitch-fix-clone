@@ -37,10 +37,16 @@ body {
 }
 
 .btn {
-  padding: 1rem;
-  font-size: 1rem;
+  font-size: .875rem;
   background-color: var(--color-bright);
+  border: 2px solid transparent;
   cursor: pointer;
+  letter-spacing: .015em;
+  padding: .875rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-decoration: none;
 }
 
 

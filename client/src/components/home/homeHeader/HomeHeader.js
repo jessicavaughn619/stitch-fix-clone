@@ -7,7 +7,7 @@ export default function HomeHeader({ data }) {
         <div className="container__homeheader">
             <div className="container_content">
                 <h1>{content}</h1>
-                <button className="btn">TAKE YOUR STYLE QUIZ</button>
+                <button className="btn">Take your style quiz</button>
             </div>
             <div className="container_image">
                 <img src={image} className="fashion-image" alt={imageAlt}/>

@@ -1,5 +1,11 @@
+.container__homeheader {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .container_image {
     display: block;
+    line-height: 0;
 }
 
 .fashion-image {
@@ -11,9 +17,8 @@
 .container_content {
     display: flex;
     flex-direction: column;
-    padding: 1.25rem;
+    padding: 2rem 1.5rem;
     align-items: flex-start;
     background-color: var(--color-primary);
     color: var(--color-white);
-    gap: .5rem;
 }
