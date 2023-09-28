@@ -21,5 +21,8 @@
     padding: 2rem 1.5rem;
     align-items: flex-start;
     background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .5)), #004f58;
+}
+
+.content_title {
     color: var(--color-white);
 }
