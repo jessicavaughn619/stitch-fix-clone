@@ -109,3 +109,24 @@
     width: 18px;
     height: 18px;
 }
+
+.wrapper__footer_links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 .5rem 1.25rem;
+}
+
+.container__footer_links {
+    line-height: 1.25rem;
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.trademark {
+    line-height: 1.25rem;
+    font-size: .875rem;
+    font-weight: 400;
+}

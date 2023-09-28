@@ -49,8 +49,15 @@ export default function Footer() {
                     {isExpand ? 
                     <MoreInfo /> : null}
                 </div>
-                <div className="footer_links">
-                Footer Links
+                <div className="wrapper__footer_links">
+                    <div className="container__footer_links">
+                       <a href="" className="footer_link">Terms of Use</a>-
+                        <a href="" className="footer_link">Privacy Policy</a>-
+                        <a href="" className="footer_link">Supply Chain Information</a>-
+                        <a href="" className="footer_link">Ad Choices</a>-
+                        <a href="" className="footer_link">Sitemap</a>
+                    </div>
+                    <p className="trademark">Stitch Fix and Fix are trademarks of Stitch Fix, Inc.</p>
                 </div>
             </footer></div>
     )
