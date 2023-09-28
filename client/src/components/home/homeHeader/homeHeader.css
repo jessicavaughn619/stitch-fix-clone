@@ -1,6 +1,7 @@
 .container__homeheader {
     display: grid;
     grid-template-columns: 1fr;
+    padding-top: 3rem;
 }
 
 .container_image {
