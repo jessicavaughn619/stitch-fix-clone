@@ -5,7 +5,7 @@ export default function HowItWorks({data}) {
 
 const allSteps = data.map(step => (
         <Step 
-            key={step}
+            key={step.id}
             step={step}
         />
     ))
