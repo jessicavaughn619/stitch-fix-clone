@@ -7,7 +7,7 @@ export default function GetStarted() {
                 <div className="getStarted_info">
                     <h2>Ready to get started with Stitch Fix?</h2>
                 </div>
-                <button className="btn">TAKE YOUR STYLE QUIZ</button>
+                <button className="btn">Take your style quiz</button>
             </section>
         </div>
     )
