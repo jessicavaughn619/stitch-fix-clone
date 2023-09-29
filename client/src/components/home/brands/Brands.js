@@ -5,7 +5,7 @@ export default function Brands() {
 
     const allBrands = brandsData.map(item => (
         <div key={item.brand} className="wrapper__brand">
-            <img src={item.logo} className="brand_logo"></img>
+            <img src={item.logo} className="brand_logo" alt={`Brand logo for ${item.logo}`}></img>
         </div>
     ))
     return (
