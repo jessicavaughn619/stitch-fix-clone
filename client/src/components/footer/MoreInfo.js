@@ -36,7 +36,7 @@ export default function MoreInfo() {
                 </div>
             </div>
             <div className="wrapper__download">
-                <img src={download} className="download_icon"></img>
+                <img src={download} className="download_icon" alt="Link to download Stitch Fix app from the App Store"></img>
             </div>
         </div>
     )
