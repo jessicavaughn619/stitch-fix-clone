@@ -18,10 +18,14 @@ export default function Footer() {
     }
 
     let regionLogo;
+    let regionAlt;
+
     if (region === "US") {
-        regionLogo = USLogo
+        regionLogo = USLogo;
+        regionAlt = "United States flag";
     } else {
         regionLogo = UKLogo
+        regionAlt = "United Kingdom flag";
     }
 
     return (
@@ -29,10 +33,10 @@ export default function Footer() {
             <footer className="container__footer">
                 <div className="wrapper__region_selector">
                     <div className="region_selector">
-                    <span className="wrapper__region_logo"><img src={regionLogo} className="region_logo"></img></span>
+                    <span className="wrapper__region_logo"><img src={regionLogo} className="region_logo" alt={regionAlt}></img></span>
                     <div>
                         <select onChange={handleChange} id="region_select">
-                            <option selected value="US">United States</option>
+                            <option value="US">United States</option>
                             <option value="UK">United Kingdom</option>
                         </select>
                     </div>

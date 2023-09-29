@@ -181,3 +181,14 @@ Started GET "/favicon.ico" for 192.168.65.1 at 2023-09-28 18:21:46 +0000
   
 ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
   
+Started GET "/" for 192.168.65.1 at 2023-09-29 14:45:09 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.7.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.6ms | Allocations: 298)
+Completed 200 OK in 14ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 2331)
+
+
+Started GET "/favicon.ico" for 192.168.65.1 at 2023-09-29 14:45:09 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
