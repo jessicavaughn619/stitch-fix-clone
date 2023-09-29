@@ -12,6 +12,15 @@
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     display: block;
+    text-align: left;
+}
+
+.styles_info h2 {
+    margin-bottom: .7rem;
+}
+
+.styles_info p {
+    margin-bottom: 2rem;
 }
 
 .styles_swiper {

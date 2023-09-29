@@ -20,7 +20,7 @@ const data = [
             id: 1,
             image: STEP1,
             heading: "Take your style quiz",
-            detail: "Tell us about your style, sizes, and budget -the more we know, the more your Stylist can help."
+            detail: "Tell us about your style, sizes, and budget-the more we know, the more your Stylist can help."
         },
         {
             
@@ -33,7 +33,7 @@ const data = [
             id: 3,
             image: STEP3,
             heading: "Get your Fix",
-            detail: "There's a $20 styling fee that's applied to what you keep."
+            detail: "There's a $20 styling fee per Fix order, which is then credited to whatever you keep."
         }]
 },
     {
