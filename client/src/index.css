@@ -28,15 +28,26 @@ html {
 }
 
 ::-webkit-scrollbar {
-  -webkit-appearance: none;
-  width: 2em;
+  width: .5em;
   height: .25em;
 }
 
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 ::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.35);
   border-radius: 4px;
-  background-color: rgba(0, 0, 0, .35);
-  box-shadow: 0 0 1px rgba(255, 255, 255, .25);
+  transition: background 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 body {
