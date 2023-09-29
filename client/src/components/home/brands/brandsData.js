@@ -47,6 +47,14 @@ import johnnieo from '../../../images/brands/johnnieo.webp'
 import penguin from '../../../images/brands/penguin.webp'
 import mountain_hard_wear from '../../../images/brands/mountain_hard_wear.webp'
 import johnston_murphy from '../../../images/brands/johnston_murphy.webp'
+import joes from '../../../images/brands/joes.webp'
+import chaser from '../../../images/brands/chaser.webp'
+import kids from '../../../images/brands/kids.webp'
+import lucky_brand from '../../../images/brands/lucky_brand.webp'
+import oneill from '../../../images/brands/oneill.webp'
+import rumi_ryder from '../../../images/brands/rumi_ryder.webp'
+import threads_4_thought from '../../../images/brands/threads_4_thought.webp'
+import hurley from '../../../images/brands/hurley.webp'
 
 const brandsData = [
     {
@@ -59,7 +67,7 @@ const brandsData = [
         id: 2,
         brand: "Adidas",
         logo: adidas,
-        styles: ["home", "women", "men"]
+        styles: ["home", "women", "men", "kids"]
     },
     {
         id: 3,
@@ -179,13 +187,13 @@ const brandsData = [
         id: 22,
         brand: "New Balance",
         logo: new_balance,
-        styles: ["home", "women", "men"]
+        styles: ["home", "women", "men", "kids"]
     },
     {
         id: 23,
-        brand: "North Face",
+        brand: "The North Face",
         logo: north_face,
-        styles: ["home", "men", "women"]
+        styles: ["home", "men", "women", "kids"]
     },
     {
         id: 24,
@@ -215,13 +223,13 @@ const brandsData = [
         id: 28,
         brand: "Under Armour",
         logo: under_armour,
-        styles: ["home", "women", "men"]
+        styles: ["home", "women", "men", "kids"]
     },
     {
         id: 29,
         brand: "Vans",
         logo: vans,
-        styles: ["home", "women", "men"]
+        styles: ["home", "women", "men", "kids"]
     },
     {
         id: 30,
@@ -287,7 +295,7 @@ const brandsData = [
         id: 40,
         brand: "Toms",
         logo: toms,
-        styles: ["men"]
+        styles: ["men", "kids"]
     },
     {
         id: 41,
@@ -329,7 +337,7 @@ const brandsData = [
         id: 47,
         brand: "DL1961",
         logo: dl1961,
-        styles: ["men"]
+        styles: ["men", "kids"]
     },
     {
         id: 48,
@@ -342,6 +350,54 @@ const brandsData = [
         brand: "Penguin",
         logo: penguin,
         styles: ["men"]
+    },
+    {
+        id: 50,
+        brand: "Chaser",
+        logo: chaser,
+        styles: ["kids"]
+    },
+    {
+        id: 51,
+        brand: "Lucky Brand",
+        logo: lucky_brand,
+        styles: ["kids"]
+    },
+    {
+        id: 52,
+        brand: "Rumi & Ryder",
+        logo: rumi_ryder,
+        styles: ["kids"]
+    },
+    {
+        id: 53,
+        brand: "Threads 4 Thought",
+        logo: threads_4_thought,
+        styles: ["kids"]
+    },
+    {
+        id: 54,
+        brand: "Hurley",
+        logo: hurley,
+        styles: ["kids"]
+    },
+    {
+        id: 55,
+        brand: "Joe's",
+        logo: joes,
+        styles: ["kids"]
+    },
+    {
+        id: 56,
+        brand: "Kids",
+        logo: kids,
+        styles: ["kids"]
+    },
+    {
+        id: 57,
+        brand: "O'Neill",
+        logo: oneill,
+        styles: ["kids"]
     }
     
 ]
