@@ -3,15 +3,18 @@ import Home from './components/home/Home';
 import { Routes, Route } from 'react-router-dom'
 import Footer from './components/footer/Footer';
 import data from './components/home/homeHeader/homeHeader-content';
+import { Context } from './context';
 
 export default function App() {
+  const siteData = data;
 
-  const homeStyle = data.find(item => item.style === "home")
-  const womenStyle = data.find(item => item.style === "women")
-  const menStyle = data.find(item => item.style === "men")
-  const kidsStyle = data.find(item => item.style === "kids")
+  const homeStyle = siteData.find(item => item.style === "home")
+  const womenStyle = siteData.find(item => item.style === "women")
+  const menStyle = siteData.find(item => item.style === "men")
+  const kidsStyle = siteData.find(item => item.style === "kids")
 
   return (
+    <Context.Provider value={siteData}>
     <div className="App">
       <Header />
       <Routes>
@@ -30,5 +33,6 @@ export default function App() {
       </Routes>
       <Footer />
     </div>
+    </Context.Provider>
   );
 }
