@@ -30,7 +30,7 @@ export default function Brands() {
                     <p>We carry women's sizes XS-3X including Plus, Petite and Maternity; men's sizes XS-3XL including Big & Tall and kids sizes 2T-18.</p>
                 </div>
                 <div className="wrapper__brands_list">
-                <div className="container__brands_list">
+                <div className={location.pathname === "/kids" ? "container__brands_list_kids" : "container__brands_list"}>
                     {allBrands}
                 </div>
                 </div>

@@ -40,6 +40,14 @@
     grid-template-columns: repeat(8, 1fr);
 }
 
+.container__brands_list_kids {
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .wrapper__brand {
     height: 62px;
     width: 100px;

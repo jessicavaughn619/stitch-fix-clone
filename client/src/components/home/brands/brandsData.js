@@ -55,6 +55,11 @@ import oneill from '../../../images/brands/oneill.webp'
 import rumi_ryder from '../../../images/brands/rumi_ryder.webp'
 import threads_4_thought from '../../../images/brands/threads_4_thought.webp'
 import hurley from '../../../images/brands/hurley.webp'
+import public_rec from '../../../images/brands/public_rec.webp'
+import diamonds from '../../../images/brands/7diamonds.webp'
+import flag_anthem from '../../../images/brands/flag_anthem.webp'
+import scotch_soda from '../../../images/brands/scotch_soda.webp'
+import mavi from '../../../images/brands/mavi.webp'
 
 const brandsData = [
     {
@@ -127,7 +132,7 @@ const brandsData = [
         id: 12,
         brand: "Faherty",
         logo: faherty,
-        styles: ["home", "women"]
+        styles: ["home", "women", "men"]
     },
     {
         id: 13,
@@ -373,7 +378,7 @@ const brandsData = [
         id: 53,
         brand: "Threads 4 Thought",
         logo: threads_4_thought,
-        styles: ["kids"]
+        styles: ["kids", "men"]
     },
     {
         id: 54,
@@ -397,7 +402,37 @@ const brandsData = [
         id: 57,
         brand: "O'Neill",
         logo: oneill,
-        styles: ["kids"]
+        styles: ["kids", "men"]
+    },
+    {
+        id: 58,
+        brand: "Scotch & Soda",
+        logo: scotch_soda,
+        styles: ["men"]
+    },
+    {
+        id: 59,
+        brand: "Mavi",
+        logo: mavi,
+        styles: ["men"]
+    },
+    {
+        id: 60,
+        brand: "Flag & Anthem",
+        logo: flag_anthem,
+        styles: ["men"]
+    },
+    {
+        id: 61,
+        brand: "7 Diamonds",
+        logo: diamonds,
+        styles: ["men"]
+    },
+    {
+        id: 62,
+        brand: "Public Rec",
+        logo: public_rec,
+        styles: ["men"]
     }
     
 ]
