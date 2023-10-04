@@ -17,6 +17,46 @@
     padding: 1.5rem;
 }
 
-.lookYourBest_icons {
+.wrapper__lookYourBest_icons {
     background-color: var(--color-white);
+    padding: 1rem;
+}
+
+.container__lookYourBest_icons {
+    margin: 0 auto;
+    max-width: 1400px;
+    display: block;
+}
+
+.lookYourBest_grid_container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.lookYourBest_grid_item {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.icon {
+    margin: 0px auto 1.25rem;
+    aspect-ratio: 1 / 1;
+    width: 96px;
+}
+
+.icon img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-clip-margin: content-box;
+}
+
+.heading {
+
+}
+
+.content {
+
 }
