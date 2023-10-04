@@ -9,6 +9,8 @@
     margin-left: auto;
     padding-right: 1rem;
     padding-left: 1rem;
+    width: 100%;
+    max-width: 1368px;
 }
 
 .container__image_info {
@@ -25,6 +27,7 @@
     object-fit: contain;
     height: 100%;
     width: 100%;
+    display: block;
 }
 
 .testimonials_info {
