@@ -7,21 +7,28 @@ export default function Brands() {
     const location = useLocation();
 
     let data;
+    let headerObject;
 
     switch(location.pathname) {
         case "/women":
             data = brandsData.filter(item => (item.styles).includes("women"));
+            headerObject = headerData.find(item => item.style === "women")
             break;
         case "/men":
             data = brandsData.filter(item => (item.styles).includes("men"));
+            headerObject = headerData.find(item => item.style === "men")
             break;
         case "/kids":
             data = brandsData.filter(item => (item.styles).includes("kids"));
+            headerObject = headerData.find(item => item.style === "kids")
             break;
         default:
             data = brandsData.filter(item => (item.styles).includes("home"));
+            headerObject = headerData.find(item => item.style === "home")
             break;
         }
+
+        const {heading, content} = headerObject;
 
 
     const allBrands = data.map(item => (
@@ -34,8 +41,8 @@ export default function Brands() {
         <div className="wrapper__brands">
             <section className="container__brands">
                 <div className="brands_info">
-                    <h2>Let us find your faves from 1000+ brands & styles</h2>
-                    <p>We carry women's sizes XS-3X including Plus, Petite and Maternity; men's sizes XS-3XL including Big & Tall and kids sizes 2T-18.</p>
+                    <h2>{heading}</h2>
+                    <p dangerouslySetInnerHTML={{ __html: content}} />
                 </div>
                 <div className="wrapper__brands_list">
                 <div className={location.pathname === "/kids" ? "container__brands_list_kids" : "container__brands_list"}>
