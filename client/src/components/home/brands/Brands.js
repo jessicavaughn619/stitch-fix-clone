@@ -39,17 +39,15 @@ export default function Brands() {
 
     return (
         <div className="wrapper__brands">
-            <section className="container__brands">
-                <div className="brands_info">
-                    <h2>{heading}</h2>
-                    <p dangerouslySetInnerHTML={{ __html: content}} />
-                </div>
-                <div className="wrapper__brands_list">
-                <div className={location.pathname === "/kids" ? "container__brands_list_kids" : "container__brands_list"}>
-                    {allBrands}
-                </div>
-                </div>
-            </section>
+            <div className="brands_info">
+                <h2>{heading}</h2>
+                <p dangerouslySetInnerHTML={{ __html: content}} />
+            </div>
+            <div className="wrapper__brands_list">
+            <div className={location.pathname === "/kids" ? "container__brands_list_kids" : "container__brands_list"}>
+                {allBrands}
+            </div>
+            </div>
         </div>
     )
 }
