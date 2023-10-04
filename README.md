@@ -25,6 +25,6 @@ docker-compose down
 ```
 
 ## Credits
-This application is a clone of Stitch Fix. All images, logos, and text are property of Stitch Fix and are used only for project purposes. 
+This application is a clone of Stitch Fix. All images, logos, and text are property of Stitch Fix and are used only for personal project purposes. 
 
 Check out and support Stitch Fix [here](https://www.stitchfix.com/).
