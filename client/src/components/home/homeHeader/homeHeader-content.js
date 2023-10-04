@@ -20,7 +20,7 @@ const data = [
             id: 1,
             image: STEP1,
             heading: "Take your style quiz",
-            detail: "Tell us about your style, sizes, and budget-the more we know, the more your Stylist can help."
+            detail: "Tell us about your style, sizes, and budget --the more we know, the more your Stylist can help."
         },
         {
             
@@ -47,7 +47,7 @@ const data = [
             image: STEP1,
             imgAlt: "Woman with phone taking the Stitch Fix style quiz.",
             heading: "Take your style quiz",
-            detail: "Tell us about your style, sizes, and budget -the more we know, the more your Stylist can help."
+            detail: "Tell us about your style, sizes, and budget --the more we know, the more your Stylist can help."
         },
         {
             id: 2,
