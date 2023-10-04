@@ -8,6 +8,7 @@
   text-decoration: none;
   font-family: 'Brandon Text', sans-serif;
   color: var(--color-text);
+  letter-spacing: normal;
 }
 
 :root {
