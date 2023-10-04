@@ -4,6 +4,7 @@ export default function HomeHeader({ data }) {
     const { content, image, imageAlt } = data;
 
     return (
+        <div className="wrapper__homeheader">
         <div className="container__homeheader">
             <div className="container_content">
                 <h1 className="content_title">{content}</h1>
@@ -12,6 +13,7 @@ export default function HomeHeader({ data }) {
             <div className="container_image">
                 <img src={image} className="fashion-image" alt={imageAlt}/>
             </div>
+        </div>
         </div>
     )
 }

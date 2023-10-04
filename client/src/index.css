@@ -68,6 +68,9 @@ body {
   white-space: nowrap;
   text-decoration: none;
   transition: background-color .4s;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1rem;
 }
 
 .btn:hover {

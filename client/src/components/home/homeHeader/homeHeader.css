@@ -1,3 +1,9 @@
+.wrapper__homeheader {
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .5)), #004f58;
+}
+
 .container__homeheader {
     display: grid;
     grid-template-columns: 1fr;
@@ -16,14 +22,11 @@
 }
 
 .container_content {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+    display: block;
     padding: 2rem 1.5rem;
-    align-items: flex-start;
-    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .5)), #004f58;
 }
 
 .content_title {
+    margin-bottom: 1rem;
     color: var(--color-white);
 }
