@@ -7,15 +7,22 @@ export default function Brands() {
     const location = useLocation();
 
     let data;
-    if (location.pathname === "/women") {
-        data = brandsData.filter(item => (item.styles).includes("women"))
-    } else if (location.pathname === "/men") {
-        data = brandsData.filter(item => (item.styles).includes("men"))
-    } else if (location.pathname === "/kids") {
-        data = brandsData.filter(item => (item.styles).includes("kids"))
-    } else {
-        data = brandsData.filter(item => (item.styles).includes("home"))
-    }
+
+    switch(location.pathname) {
+        case "/women":
+            data = brandsData.filter(item => (item.styles).includes("women"));
+            break;
+        case "/men":
+            data = brandsData.filter(item => (item.styles).includes("men"));
+            break;
+        case "/kids":
+            data = brandsData.filter(item => (item.styles).includes("kids"));
+            break;
+        default:
+            data = brandsData.filter(item => (item.styles).includes("home"));
+            break;
+        }
+
 
     const allBrands = data.map(item => (
         <div key={item.id} className="wrapper__brand">
