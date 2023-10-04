@@ -1,15 +1,22 @@
 .wrapper__how-it-works {
     background: var(--color-bg);
-    padding: 1rem 1rem 3rem;
     display: block;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .container__how-it-works {
     display: block;
-    margin: 0 auto;
     max-width: 1440px;
     text-align: center;
+    margin-top: -3rem;
+    padding: 1rem 1rem 3rem;
+    background: var(--color-bg-light);
+}
+
+.container__how-it-works h2 {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .container_steps {
@@ -44,8 +51,8 @@ img {
     text-align: center;
     margin-bottom: 1rem;
     font-size: 1.25rem;
-    font-weight: 600;
     line-height: 1.75rem;
+    font-weight: 500;
 }
 
 .detail {
