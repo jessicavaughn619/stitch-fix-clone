@@ -1,5 +1,6 @@
 import './brands.css'
 import brandsData from './brandsData'
+import headerData from './brandsHeaderData';
 import { useLocation } from 'react-router-dom'
 
 export default function Brands() {
