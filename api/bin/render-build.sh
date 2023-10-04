@@ -2,12 +2,10 @@
 # exit on error
 set -o errexit
 
-cd ./client
-
 # builds the front end code
-rm -rf ../public
+rm -rf public
 npm install --prefix client && npm run build --prefix client
-cp -a client/build/. ../public/
+cp -a client/build/. public/
 
 cd ../api
 
