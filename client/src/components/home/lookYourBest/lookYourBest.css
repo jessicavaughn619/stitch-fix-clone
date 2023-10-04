@@ -1,6 +1,11 @@
 .wrapper__lookYourBest {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     background: var(--color-bright-variant);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 
 .container__lookYourBest {
@@ -10,22 +15,24 @@
 .lookYourBest_info {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
-    display: block;
 }
 
 .lookYourBest_info h2 {
-    padding: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
 }
 
 .wrapper__lookYourBest_icons {
-    background-color: var(--color-white);
-    padding: 1rem;
+    background: var(--color-bright-variant);
 }
 
 .container__lookYourBest_icons {
     margin: 0 auto;
     max-width: 1400px;
     display: block;
+    background-color: var(--color-white);
 }
 
 .lookYourBest_grid_container {
@@ -35,6 +42,12 @@
 }
 
 .lookYourBest_grid_item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 375px;
+    overflow: hidden;
     padding: 1rem 2rem;
     text-align: center;
 }
@@ -42,7 +55,7 @@
 .icon {
     margin: 0px auto 1.25rem;
     aspect-ratio: 1 / 1;
-    width: 96px;
+    width: 136px;
 }
 
 .icon img {
@@ -53,10 +66,16 @@
     overflow-clip-margin: content-box;
 }
 
-.heading {
-
+.icon_heading {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 600;
 }
 
-.content {
-
+.icon_content {
+    margin: .5rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
 }
