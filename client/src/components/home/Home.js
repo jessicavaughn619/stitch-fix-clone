@@ -21,7 +21,7 @@ export default function Home({data}) {
         <Brands data={data.brands}/>
         {location.pathname === "/" || location.pathname === "/women" ? <Testimonials /> : null}
         {location.pathname === "/women" || location.pathname === "/men" ? <StyleShuffle /> : null}
-        <LookYourBest />
+        {location.pathname === "/kids" ? null : <LookYourBest />}
         <GetStarted />
         {location.pathname === "/kids" ? null : <Faqs data={faqData}/>}
         </>
