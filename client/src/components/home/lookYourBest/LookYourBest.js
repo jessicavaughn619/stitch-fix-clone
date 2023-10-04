@@ -8,17 +8,20 @@ export default function LookYourBest() {
 
     let headerText;
     let headerObject;
-    if (location.pathname === "/women") {
-        headerObject = headerData.find(item => item.style === "women")
-        headerText = headerObject.content
-    } else if (location.pathname === "/men") {
-        headerObject = headerData.find(item => item.style === "men")
-        headerText = headerObject.content
+    
+    switch (location.pathname) {
+      case "/women":
+        headerObject = headerData.find(item => item.style === "women");
+        break;
+      case "/men":
+        headerObject = headerData.find(item => item.style === "men");
+        break;
+      default:
+        headerObject = headerData.find(item => item.style === "home");
+        break;
     }
-    else {
-        headerObject = headerData.find(item => item.style === "home")
-        headerText = headerObject.content
-    }
+    
+    headerText = headerObject.content;
 
     return (
         <div className="wrapper__lookYourBest">
