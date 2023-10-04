@@ -65,6 +65,7 @@
     transition: background-size .4s;
     padding: 0 .875rem;
     align-items: center;
+    font-weight: 500;
 }
 
 .category-links a:hover:not(.active) {
