@@ -1,7 +1,9 @@
 import Step from "./Step"
 import './howItWorks.css'
+import { useLocation } from 'react-router-dom'
 
 export default function HowItWorks({data}) {
+    const location = useLocation()
 
 const allSteps = data.map(step => (
         <Step 
@@ -10,9 +12,9 @@ const allSteps = data.map(step => (
         />
     ))
     return (
-        <div className="wrapper__how-it-works">
-        <section className="container__how-it-works">
-            <h2>How Stitch Fix works</h2>
+        <div className="wrapper__how_it_works">
+        <section className={location.pathname === "/kids" ? "container__how_it_works_kids" : "container__how_it_works"}>
+            <h2>{location.pathname === "/kids" ? "How it works" : "How Stitch Fix works"}</h2>
             <div className="container_steps">
             {allSteps}
             </div>

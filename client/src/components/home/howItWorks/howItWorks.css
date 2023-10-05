@@ -1,10 +1,10 @@
-.wrapper__how-it-works {
+.wrapper__how_it_works {
     background: var(--color-bg);
     display: block;
     margin-top: 3rem;
 }
 
-.container__how-it-works {
+.container__how_it_works {
     display: block;
     max-width: 1440px;
     text-align: center;
@@ -13,7 +13,21 @@
     background: var(--color-bg-light);
 }
 
-.container__how-it-works h2 {
+.container__how_it_works_kids {
+    display: block;
+    max-width: 1440px;
+    text-align: center;
+    padding: 1rem 1rem 3rem;
+    background: var(--color-white);
+}
+
+.container__how_it_works h2 {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container__how_it_works_kids h2 {
     margin-top: 2rem;
     text-align: center;
     margin-bottom: 1rem;
