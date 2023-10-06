@@ -137,12 +137,6 @@
     background-color: #f2f3f4;
     display: grid;
     grid-auto-flow: column;
-    /* list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px; */
 }
 
 .social_handle_li {
