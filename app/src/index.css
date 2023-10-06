@@ -114,3 +114,7 @@ img {
 a {
   color: var(--color-text)
 }
+
+audio, canvas, embed, iframe, img, object, svg, video {
+  display: block;
+}

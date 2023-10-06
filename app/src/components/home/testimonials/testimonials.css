@@ -11,6 +11,8 @@
     padding-left: 1rem;
     width: 100%;
     max-width: 1368px;
+    padding-bottom: 3.25rem;
+    background: #fafafa;
 }
 
 .container__image_info {
@@ -56,6 +58,7 @@
     padding: 0 1rem .5rem;
     scroll-padding: 1rem;
     scroll-snap-type: x mandatory;
+    line-height: 1;
 }
 
 .wrapper__testimonial_slide {
@@ -92,7 +95,6 @@
 }
 
 .quoteIcon {
-    display: block;
     float: left;
     margin-right: 1rem;
 }
