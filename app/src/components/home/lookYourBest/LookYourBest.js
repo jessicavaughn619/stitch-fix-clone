@@ -22,16 +22,16 @@ export default function LookYourBest() {
     const { title, steps } = headerObject;
 
     return (
-        <div className="wrapper__lookYourBest">
-            <div className="container__lookYourBest">
-                <div className="lookYourBest_info">
+        <div className="wrapper__look_your_best">
+            <div className="container__look_your_best">
+                <div className="look_your_best_info">
                     <h2>{title}</h2>
                 </div>
-                <div className="wrapper__lookYourBest_icons">
-                <section className="container__lookYourBest_icons">
-                <div className="lookYourBest_grid_container">
+                <div className="wrapper__look_your_best_icons">
+                <section className="container__look_your_best_icons">
+                <div className="look_your_best_grid_container">
                 {steps.map(step => 
-                    <div className="lookYourBest_grid_item" key={step.id}>
+                    <div className="look_your_best_grid_item" key={step.id}>
                         <div className="icon">
                             <img src={step.icon} alt={step.heading}></img>
                         </div>

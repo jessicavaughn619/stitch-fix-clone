@@ -1,4 +1,4 @@
-.wrapper__lookYourBest {
+.wrapper__look_your_best {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -6,35 +6,36 @@
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
+    margin-top: 3rem;
 }
 
-.container__lookYourBest {
+.container__look_your_best {
     display: block;
 }
 
-.lookYourBest_info h2 {
+.look_your_best_info h2 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     line-height: 2rem;
     text-align: center;
 }
 
-.wrapper__lookYourBest_icons {
+.wrapper__look_your_best_icons {
     background: var(--color-bright-variant);
 }
 
-.container__lookYourBest_icons {
+.container__look_your_best_icons {
     padding: 1rem;
     background-color: var(--color-white);
 }
 
-.lookYourBest_grid_container {
+.look_your_best_grid_container {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(1, 1fr);
 }
 
-.lookYourBest_grid_item {
+.look_your_best_grid_item {
     align-items: center;
     display: flex;
     flex-direction: column;
