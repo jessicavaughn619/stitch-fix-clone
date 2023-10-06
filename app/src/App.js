@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import Footer from './components/footer/Footer';
 import data from './components/home/homeHeader/homeHeader-content';
 import { Context } from './context';
+import './app.css'
 
 export default function App() {
   const siteData = data;
@@ -16,6 +17,7 @@ export default function App() {
   return (
     <Context.Provider value={siteData}>
     <div className="App">
+    <div className="wrapper__main_container">
       <Header />
       <Routes>
         <Route exact path='/' element={
@@ -31,6 +33,7 @@ export default function App() {
           <Home data={kidsStyle}/>}
           />
       </Routes>
+      </div>
       <Footer />
     </div>
     </Context.Provider>
