@@ -21,10 +21,14 @@
     line-height: 1.25rem;
 }
 
-.container__styles_swiper {
+.wrapper__styles_swiper {
     display: flex;
     justify-content: center;
     margin: 0 auto;
     max-width: 1440px;
     padding: 0 1.5rem;
+}
+
+.container__styles_swiper {
+    overflow: hidden;
 }
