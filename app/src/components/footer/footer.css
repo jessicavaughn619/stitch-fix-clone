@@ -56,12 +56,19 @@
     text-align: center;
     white-space: nowrap;
     border-radius: 1000px;
+    font-weight: 500;
+    align-items: center;
+    border: 2px solid transparent;
+    display: inline-flex;
+    justify-content: center;
+    width: auto;
 }
 
 .expand_collapse {
     height: 16px;
     width: 16px;
-    padding-top: .2rem;
+    margin-left: .5rem;
+    margin-right: 0;
 }
 
 .wrapper__btn-round::before {
