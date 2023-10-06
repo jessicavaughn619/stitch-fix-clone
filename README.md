@@ -1,5 +1,5 @@
 # Stitch Fix Clone
-I am a full-stack developer and have always held a love for fashion and style. I was introduced to Stitch Fix many years ago as a client and have been hooked on their personal styling service ever since. Stitch Fix is a dream company for me, therefore I was inspired to build a clone application using Rails and React to explore nuances of their UI as well as stretch my development skills to integrate product data from multiple APIs into a comprehensive product database.
+I am a full-stack developer and have always held a love for fashion and style. I was introduced to Stitch Fix many years ago as a client and have been hooked on their personal styling service ever since. Stitch Fix is a dream company for me, therefore I was inspired to build a React UI clone to explore nuances of their UI.
 
 ## Installation
 This project is containerized with Docker. If you do not have docker installed, check out the documentation [here](https://www.docker.com/get-started/).
@@ -12,13 +12,12 @@ Cd into the directory and run:
 docker-compose up
 ```
 
-This command starts and runs all three project containers, including a backend Rails app, a Postgres instance, anad a frontend React app.
+This command starts and runs a frontend React container.
 
-Ports:
+Port: 
+React app: 4000
 
-Rails app: 3000 | React app: 4000
-
-To stop running and remove the containers, run:
+To stop running and remove the container, run:
 
 ```
 docker-compose down
