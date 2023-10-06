@@ -151,3 +151,14 @@
     font-size: .75rem;
     line-height: 1rem;
 }
+
+.social_handle_handle:after {
+    background: #e1ded9;
+    content: " ";
+    display: block;
+    height: 1px;
+    left: calc(50% - 1.875rem);
+    position: absolute;
+    top: .25rem;
+    width: 3.75rem;
+}
