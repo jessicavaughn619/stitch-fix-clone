@@ -1,6 +1,7 @@
 import './testimonials.css'
 import data from './testimonialData'
 import { useLocation } from 'react-router-dom'
+import TestimonialSlide from './TestimonialSlide';
 
 export default function Testimonials() {
     const location = useLocation();
@@ -16,7 +17,14 @@ export default function Testimonials() {
         break;
     }
 
-    const { title, content, image, imageAlt } = headerObject;
+    const { title, content, image, imageAlt, testimonials } = headerObject;
+
+    const allTestimonials = testimonials.map(testimonial => (
+        <TestimonialSlide 
+            key={testimonial.id}
+            testimonial={testimonial}
+        />
+    ))
 
     return (
         <div className="wrapper__testimonials">
@@ -31,7 +39,7 @@ export default function Testimonials() {
             </div>
             </div>
             <div className="testimonials_swiper">
-                Swiper
+                {allTestimonials}
             </div>
         </section>
         </div>
