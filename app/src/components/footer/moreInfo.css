@@ -109,3 +109,36 @@
     display: grid;
     grid-auto-flow: column;
 }
+
+.social_handles {
+    background-color: #f2f3f4;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.social_handle_li {
+    display: block;
+    list-style: none;
+}
+
+.social_handle_link {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.social_handle_label {
+    font-weight: 500;
+    line-height: 1.25rem;
+    font-size: .875rem;
+}
+
+.social_handle_handle {
+    padding-block-start: .5rem;
+    position: relative;
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1rem;
+}

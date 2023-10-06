@@ -8,10 +8,15 @@ import { useState } from 'react'
 
 export default function MoreInfo() {
     const [isSocialExpand, setIsSocialExpand] = useState(false)
+    const [activeSocial, setActiveSocial] = useState({})
 
     function handleSetIsSocialExpand(id) {
-        setIsSocialExpand(isSocialExpand => !isSocialExpand)
-        console.log(id)
+        if (activeSocial && activeSocial.id === id) {
+            setIsSocialExpand(isSocialExpand => !isSocialExpand)
+        } else {
+            setActiveSocial(socialData.find(item => item.id === id))
+            setIsSocialExpand(true)
+        }
     }
 
     const allService = serviceData.map(item => (
@@ -22,7 +27,7 @@ export default function MoreInfo() {
         <a href={item.link} key={item.title}>{item.title}</a>
     ))
 
-    const allSocial = socialData.map(item => (
+    const allSocials = socialData.map(item => (
         <Social 
             key={item.id}
             item={item}
@@ -44,13 +49,18 @@ export default function MoreInfo() {
             </div>
             <div className="wrapper__social_links">
                 <ul className="social_links">
-                    {allSocial}
+                    {allSocials}
                 </ul>
-                {isSocialExpand ? 
-                <ul>
-                    <li>
-                        <p>Hello!</p>
+                {isSocialExpand && activeSocial.handles ? 
+                <ul className="social_handles">
+                {activeSocial.handles.map(handle => (
+                    <li className="social_handle_li" key={handle.id}>
+                        <a className="social_handle_link" href={handle.link}>
+                            <span className="social_handle_label">{handle.label}</span>
+                            <span className="social_handle_handle">{handle.handle}</span>
+                        </a>
                     </li>
+                ))}
                 </ul> : null}
             </div>
             <div className="wrapper__download">

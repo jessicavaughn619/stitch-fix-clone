@@ -9,13 +9,13 @@ const socialData = [
         link: "",
         handles: [{
             id: 1,
-            label: "women",
+            label: "Women",
             handle: "/stitchfix",
             link: "https://www.facebook.com/stitchfix"
         },
         {
             id: 2,
-            label: "men",
+            label: "Men",
             handle: "/stitchfixmen",
             link: "https://www.facebook.com/stitchfixmen"
         }]
@@ -27,13 +27,13 @@ const socialData = [
         link: "",
         handles: [{
             id: 1,
-            label: "women",
+            label: "Women",
             handle: "@stitchfix",
             link: "https://www.instagram.com/stitchfix"
         },
         {
             id: 2,
-            label: "men",
+            label: "Men",
             handle: "@stitchfixmen",
             link: "https://www.instagram.com/stitchfixmen"
         }]
@@ -45,13 +45,13 @@ const socialData = [
         link: "",
         handles: [{
             id: 1,
-            label: "women",
+            label: "Women",
             handle: "/stitchfix",
             link: "https://www.pinterest.com/stitchfix"
         },
         {
             id: 2,
-            label: "men",
+            label: "Men",
             handle: "/stitchfixmen",
             link: "https://www.pinterest.com/stitchfixmen"
         }]
@@ -63,13 +63,13 @@ const socialData = [
         link: "",
         handles: [{
             id: 1,
-            label: "women",
+            label: "Women",
             handle: "@stitchfix",
             link: "https://www.twitter.com/stitchfix"
         },
         {
             id: 2,
-            label: "men",
+            label: "Men",
             handle: "@stitchfixmen",
             link: "https://www.twitter.com/stitchfixmen"
         }]
@@ -78,13 +78,15 @@ const socialData = [
         id: 5,
         title: "TikTok",
         icon: <BiLogoTiktok />,
-        link: "https://www.tiktok.com/@stitchfix"
+        link: "https://www.tiktok.com/@stitchfix",
+        handles: []
     },
     {
         id: 6,
         title: "YouTube",
         icon: <BiLogoYoutube />,
-        link: "https://www.youtube.com/stitchfix"
+        link: "https://www.youtube.com/stitchfix",
+        handles: []
     }
 ]
 
