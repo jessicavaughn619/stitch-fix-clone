@@ -1,13 +1,13 @@
 .wrapper__faqs {
     display: block;
     background: var(--color-white);
+    margin-top: 3rem;
 }
 
 .container__faqs {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    padding: 3rem 1rem 1rem 1rem;
 }
 
 .faqs_info {
@@ -24,44 +24,93 @@ h4 {
     margin-top: 1rem;
 }
 
-.faq_bullet {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-}
-
 .faq_bullet_collapse {
-    display: flex;
-    gap: .5rem;
+    position: relative;
     cursor: pointer;
+    margin: 0px auto;
     padding-top: 12px;
     padding-bottom: 12px;
     max-width: 510px;
 }
 
-.faq_bullet_expand {
-    margin-bottom: 1rem;
-    padding: 0 1rem;
-}
-
-.expand_collapse_icon {
-    font-weight: bold;
+.wrapper__expand_collapse_button {
+    top: 0;
     align-items: center;
     display: flex;
-    padding: 0 0.5rem;
+    padding: 0 .5rem;
+    position: absolute;
     z-index: 1;
 }
 
+.expand_collapse_button {
+    background-color: transparent;
+    border-radius: 10rem;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem;
+    transition: background-color .4s;
+}
+
+.expand_collapse_button:hover {
+    background-color: rgba(37, 40, 45, .1);
+}
+
+.expand_collapse_button:active {
+    background-color: rgba(37, 40, 45, .2);
+}
+
+.expand_collapse_button:focus {
+    background-color: rgba(37, 40, 45, .2);
+    outline: 2px solid #008182;
+    outline-offset: 1px;
+}
+
+.wrapper__question {
+    margin-left: 50px;
+    cursor: pointer;
+    line-height: 1;
+}
+
 .question {
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    margin: 0;
+}
+
+.faq_bullet_expand {
+    margin-top: 8px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.wrapper__answer {
+    line-height: 1;
+}
+
+.answer {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
 }
 
 .more_info {
     margin-top: .5rem;
+    line-height: 1;
 }
 
-#more_info {
-    padding: 0;
-    font-weight: bold;
-    color: var(--color-primary);
+.more_info_link {
+    align-items: center;
+    display: inline-flex;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.more_info_link_content {
+    margin-right: .25rem;
+    border-bottom-color: transparent;
+    color: var(--color-primary-variant);
 }
