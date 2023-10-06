@@ -24,6 +24,7 @@
 .questions {
     display: flex;
     font-size: .875rem;
+    gap: .25rem;
 }
 
 .questions a {
