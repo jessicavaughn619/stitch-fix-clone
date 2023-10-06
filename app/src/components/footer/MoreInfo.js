@@ -1,15 +1,17 @@
 import './moreInfo.css'
-import { useState } from 'react'
 import serviceData from './serviceData'
 import companyData from './companyData'
 import socialData from './socialData'
 import download from '../../images/app_store.png'
+import Social from './Social'
+import { useState } from 'react'
 
 export default function MoreInfo() {
     const [isSocialExpand, setIsSocialExpand] = useState(false)
 
-    function handleClick() {
+    function handleSetIsSocialExpand(id) {
         setIsSocialExpand(isSocialExpand => !isSocialExpand)
+        console.log(id)
     }
 
     const allService = serviceData.map(item => (
@@ -21,9 +23,11 @@ export default function MoreInfo() {
     ))
 
     const allSocial = socialData.map(item => (
-        <li key={item.id} onClick={handleClick}>
-            <button>{item.icon}</button>
-        </li>
+        <Social 
+            key={item.id}
+            item={item}
+            onSetIsSocialExpand={handleSetIsSocialExpand}
+        />
     ))
 
     return (
@@ -43,8 +47,10 @@ export default function MoreInfo() {
                     {allSocial}
                 </ul>
                 {isSocialExpand ? 
-                <ul className="social_business_links">
-                Handle
+                <ul>
+                    <li>
+                        <p>Hello!</p>
+                    </li>
                 </ul> : null}
             </div>
             <div className="wrapper__download">

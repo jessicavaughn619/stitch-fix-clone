@@ -118,3 +118,8 @@ a {
 audio, canvas, embed, iframe, img, object, svg, video {
   display: block;
 }
+
+dd, dl, dt, li, ol, ul {
+  margin: 0;
+  padding: 0;
+}
