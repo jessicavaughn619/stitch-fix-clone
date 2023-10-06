@@ -79,14 +79,12 @@ const socialData = [
         title: "TikTok",
         icon: <BiLogoTiktok />,
         link: "https://www.tiktok.com/@stitchfix",
-        handles: []
     },
     {
         id: 6,
         title: "YouTube",
         icon: <BiLogoYoutube />,
         link: "https://www.youtube.com/stitchfix",
-        handles: []
     }
 ]
 

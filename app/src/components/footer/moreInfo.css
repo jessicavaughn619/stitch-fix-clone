@@ -104,6 +104,15 @@
     height: 20px;
 }
 
+.social_link_link {
+    background-color: transparent;
+    border-radius: 10rem;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem;
+    transition: background-color .4s;
+}
+
 .social_business_links {
     background-color: #f2f3f4;
     display: grid;
