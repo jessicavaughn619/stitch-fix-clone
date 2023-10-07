@@ -33,10 +33,6 @@
     overflow: hidden;
 }
 
-#swiper-container {
-    position: relative;
-}
-
 .styles_label {
     background: var(--color-white);
     bottom: 32px;
