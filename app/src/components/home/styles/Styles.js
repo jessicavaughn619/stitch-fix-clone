@@ -14,6 +14,9 @@ export default function Styles() {
       case "/men":
         stylesData = data.find(item => item.style === "men");
         break;
+    case "/kids":
+        stylesData = data.find(item => item.style === "kids");
+        break;
       default:
         stylesData = data.find(item => item.style === "home");
         break;
