@@ -53,3 +53,21 @@
     font-weight: 500;
 
 }
+
+.swiper-button-prev {
+    background-color: #25282d;
+    color: var(--color-white);
+    border-radius: 10rem;
+    display: inline-block;
+    padding: 1rem;
+    transition: background-color .4s;
+}
+
+.swiper-button-next {
+    background-color: #25282d;
+    color: var(--color-white);
+    border-radius: 10rem;
+    display: inline-block;
+    padding: 1rem;
+    transition: background-color .4s;
+}
