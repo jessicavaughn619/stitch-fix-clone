@@ -5,12 +5,9 @@ import Footer from './components/footer/Footer';
 import data from './components/home/homeHeader/homeHeader-content';
 import { Context } from './context';
 import './app.css'
-import { register } from 'swiper/element/bundle';
 
 export default function App() {
   const siteData = data;
-
-  register();
 
   const homeStyle = siteData.find(item => item.style === "home")
   const womenStyle = siteData.find(item => item.style === "women")
