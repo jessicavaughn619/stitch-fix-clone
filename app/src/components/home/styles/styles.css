@@ -32,3 +32,28 @@
 .container__styles_swiper {
     overflow: hidden;
 }
+
+#swiper-container {
+    position: relative;
+}
+
+.styles_label {
+    background: var(--color-white);
+    bottom: 32px;
+    left: 0;
+    padding: .375rem 1rem;
+    position: absolute;
+}
+
+.styles_link {
+    align-items: center;
+    display: inline-flex;
+}
+
+.styles_link_content {
+    margin-right: .25rem;
+    color: #00625d;
+    border-bottom-color: transparent;
+    font-weight: 500;
+
+}
