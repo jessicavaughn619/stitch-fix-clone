@@ -1,5 +1,11 @@
-export default function DesktopNav() {
+import Nav from "./Nav"
+
+export default function DesktopNav({isMobile, isMenuOpen, onSetIsMenuOpen}) {
     return (
-        <span>Desktop Nav</span>
+        <Nav 
+            isMobile={isMobile}
+            isMenuOpen={isMenuOpen}
+            onSetIsMenuOpen={onSetIsMenuOpen}
+        />
     )
 }
