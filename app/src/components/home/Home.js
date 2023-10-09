@@ -7,7 +7,6 @@ import LookYourBest from './lookYourBest/LookYourBest'
 import GetStarted from "./getStarted/GetStarted";
 import Faqs from "./faqs/Faqs";
 import { useLocation } from "react-router-dom";
-import StyleShuffle from "./styleShuffle/StyleShuffle";
 
 export default function Home({data}) {
     const location = useLocation()
@@ -19,7 +18,6 @@ export default function Home({data}) {
         <Styles />
         <Brands data={data.brands}/>
         {location.pathname === "/" || location.pathname === "/women" ? <Testimonials /> : null}
-        {location.pathname === "/women" || location.pathname === "/men" ? <StyleShuffle /> : null}
         {location.pathname === "/kids" ? null : <LookYourBest />}
         <GetStarted />
         {location.pathname === "/kids" ? null : <Faqs />}

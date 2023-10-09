@@ -1,10 +1,11 @@
 import Nav from './Nav'
 
-export default function Menu({isMenuOpen, onSetIsMenuOpen}) {
+export default function Menu({isMenuOpen, onSetIsMenuOpen, isMobile}) {
     return (
         <Nav 
-            isMenu={true}
+            isMenuOpen={isMenuOpen}
             onSetIsMenuOpen={onSetIsMenuOpen}
+            isMobile={isMobile}
         />
     )
 }

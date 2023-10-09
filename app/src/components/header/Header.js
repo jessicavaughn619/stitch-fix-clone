@@ -2,25 +2,31 @@ import './header.css'
 import { NavLink } from "react-router-dom"
 import { BsBag } from 'react-icons/bs'
 import { useState } from "react"
-import DesktopNav from "./DesktopNav"
+import DesktopMenu from "./DesktopMenu"
 import Menu from "./Menu"
 
 export default function Header({isMobile}) {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
+    function handleSetIsMenuOpen() {
+        setIsMenuOpen(isMenuOpen => !isMenuOpen);
+    }
+
+    console.log(isMenuOpen)
+
     return (
         <div className="wrapper__header">
         <header className="container__header">
+        {isMobile ? 
             <Menu 
                 isMenuOpen={isMenuOpen}
-                onSetIsMenuOpen={setIsMenuOpen}
-            />
-            {!isMobile ? 
-            <DesktopNav 
-                isMenuOpen={isMenuOpen}
-                onSetIsMenuOpen={setIsMenuOpen}
+                onSetIsMenuOpen={handleSetIsMenuOpen}
                 isMobile={isMobile}
-            /> : null}
+            /> :
+            <DesktopMenu 
+                isMobile={isMobile}
+                isMenuOpen={isMenuOpen}
+            />}
             <div className="category-links">
             <NavLink to="/women" className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "active" : ""}>Women</NavLink>
@@ -29,6 +35,7 @@ export default function Header({isMobile}) {
             <NavLink to="/kids" className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "active" : ""}>Kids</NavLink>
             </div>
+            {!isMobile ? <div>Links</div> : null}
             <div className="wrapper__cart">
             <BsBag className="cart_icon"/>
             </div>
