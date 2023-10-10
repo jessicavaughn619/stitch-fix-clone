@@ -29,8 +29,19 @@
     padding: 0 1.5rem;
 }
 
+.container__styles {
+    margin: 0px auto;
+    max-width: 1600px;
+}
+
 .container__styles_swiper {
     overflow: hidden;
+    /* height: 500px; */
+}
+
+.swiper_image {
+    height: 500px;
+    width: fit-content;
 }
 
 .styles_label {
@@ -70,4 +81,30 @@
     display: inline-block;
     padding: 1rem;
     transition: background-color .4s;
+}
+
+@media screen and (min-width: 560px) {
+    .styles_info > h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .styles_info > p {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .styles_info > h2 {
+        text-align: center;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .styles_info > p {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
 }

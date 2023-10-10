@@ -22,7 +22,7 @@ export default function Styles() {
         break;
     }
     
-    const { title, content, slides } = stylesData;
+    const { title, content } = stylesData;
     return (
         <div className="wrapper__styles">
         <section className="container__styles">
@@ -39,7 +39,7 @@ export default function Styles() {
                             <div>
                             <a href={slide.link}>
                             <div>
-                            <img src={slide.image} alt={slide.imageAlt}></img>
+                            <img className="swiper_image" src={slide.image} alt={slide.imageAlt}></img>
                             </div>
                             </a>
                             {(location.pathname === "/") ? <div className="styles_label">
