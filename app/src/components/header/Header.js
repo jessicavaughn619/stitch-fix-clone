@@ -49,8 +49,12 @@ export default function Header({isMobile}) {
                         </li>
                     </ul>
                 </div> : null}
-            <div className="wrapper__cart">
-            <BsBag className="cart_icon"/>
+            <div className="wrapper__cart_signin">
+                <a className="container__cart" href="https://www.stitchfix.com/product/shopping_bag?ic=other">
+                <BsBag className="cart_icon"/>
+                {!isMobile ? <span>Bag</span> : null}
+                </a>
+            {!isMobile ? <a className="btn-secondary sign_in_button">Sign In</a>: null}
             </div>
         </header>
         </div>

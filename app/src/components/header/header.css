@@ -95,13 +95,18 @@
     animation: active_hover .4s;
 }
 
-.wrapper__cart {
+.wrapper__cart_signin {
     display: flex;
     right: 1rem;
     top: 0;
     align-items: center;
     height: 100%;
     position: absolute;
+    gap: 2rem;
+}
+
+.container__cart {
+    right: 1rem;
 }
 
 .cart_icon {
@@ -243,4 +248,9 @@
     background-image: linear-gradient(#bfbfbf,#bfbfbf);
     background-position-x: 50%;
     background-size: 100% 4px;
+}
+
+.sign_in_button {
+    position: absolute;
+    right: .85rem;
 }
