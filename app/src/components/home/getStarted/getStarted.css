@@ -1,8 +1,20 @@
-.wrapper__getStarted {
+.wrapper__get_started {
     display: block;
+    margin-top: 3rem;
 }
 
-.container__getStarted {
+.container__get_started {
+    align-items: center;
+    border: 22px solid var(--color-bright);
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 2rem;
+    margin-top: -3rem;
+}
+
+.container__get_started_kids {
     align-items: center;
     border: 22px solid var(--color-bright);
     background: var(--color-white);
@@ -12,11 +24,11 @@
     padding: 4rem 2rem;
 }
 
-.getStarted_info {
+.get_started_info {
     display: block;
     margin-bottom: 1rem;
 }
 
-.getStarted_info h2 {
+.get_started_info h2 {
     text-align: center;
 }

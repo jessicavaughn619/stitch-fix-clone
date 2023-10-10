@@ -25,9 +25,9 @@ export default function GetStarted() {
     const { heading, buttonText } = dataObject;
 
     return (
-        <div className="wrapper__getStarted">
-            <section className="container__getStarted">
-                <div className="getStarted_info">
+        <div className="wrapper__get_started">
+            <section className={location.pathname === "/kids" ? "container__get_started_kids" : "container__get_started"}>
+                <div className="get_started_info">
                     <h2>{heading}</h2>
                 </div>
                 <button className="btn">{buttonText}</button>
