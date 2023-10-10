@@ -15,8 +15,9 @@ export default function Header({isMobile}) {
     console.log(isMenuOpen)
 
     return (
-        <div className="wrapper__header">
-        <header className="container__header">
+        <div className="top_wrapper__header">
+        <header className="wrapper__header">
+            <div className="container__header">
         {isMobile ? 
             <Menu 
                 isMenuOpen={isMenuOpen}
@@ -52,8 +53,9 @@ export default function Header({isMobile}) {
             <div className="wrapper__cart_signin">
                 <a className="container__cart" href="https://www.stitchfix.com/product/shopping_bag?ic=other">
                 <BsBag className="cart_icon"/>
-                {!isMobile ? <span>Bag</span> : null}
+                {!isMobile ? <span className="cart_title">Bag</span> : null}
                 </a>
+            </div>
             {!isMobile ? <a className="btn-secondary sign_in_button">Sign In</a>: null}
             </div>
         </header>

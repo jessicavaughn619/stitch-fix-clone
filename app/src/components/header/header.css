@@ -1,11 +1,19 @@
+.top_wrapper__header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background: var(--color-white);
+}
+
 .wrapper__header {
     display: block;
     margin-right: auto;
     margin-left: auto;
     max-width: 1368px;
     width: 100%;
-    position: fixed;
-    z-index: 10;
 }
 
 .container__header {
@@ -253,4 +261,37 @@
 .sign_in_button {
     position: absolute;
     right: .85rem;
+}
+
+@media screen and (min-width: 860px) {
+    .container__header {
+        height: 3.5rem;
+    }
+
+    .menu_dropdown {
+        top: 3.5rem;
+    }
+
+    .category-links {
+        padding-top: 1rem;
+    }
+
+    .wrapper__cart_signin {
+        right: 7rem;
+    }
+
+    .container__cart {
+        display: flex;
+        gap: .5rem;
+    }
+
+    .cart_title {
+        display: none;
+    }
+
+@media screen and (min-width: 900px) {
+    .cart_title {
+        display: block;
+    }
+}
 }
