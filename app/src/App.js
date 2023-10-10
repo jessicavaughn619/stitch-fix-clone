@@ -17,7 +17,7 @@ export default function App() {
   const kidsStyle = siteData.find(item => item.style === "kids")
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 768px)');
+    const mediaQuery = window.matchMedia('(max-width: 860px)');
     const handleMediaChange = (e) => {
       setIsMobile(e.matches);
     };

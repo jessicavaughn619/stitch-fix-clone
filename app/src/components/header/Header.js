@@ -39,16 +39,15 @@ export default function Header({isMobile}) {
                 <div className="wrapper__desktop_links">
                     <ul className="container__desktop_links">
                         <li className="desktop_link">
-                            <a></a>
+                            <a href="https://www.stitchfix.com/impact">Social Impact</a>
                         </li>
                         <li className="desktop_link">
-                            <a></a>
+                            <a href="https://support.stitchfix.com/hc/en-us/sections/360006899113">FAQ</a>
                         </li>
                         <li className="desktop_link">
-                            <a></a>
+                            <a href="https://www.stitchfix.com/gifts">Gift Cards</a>
                         </li>
                     </ul>
-                    Links
                 </div> : null}
             <div className="wrapper__cart">
             <BsBag className="cart_icon"/>
