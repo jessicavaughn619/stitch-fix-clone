@@ -4,6 +4,12 @@
     margin-top: 3rem;
 }
 
+.wrapper__how_it_works_kids {
+    background: var(--color-bg);
+    display: block;
+    margin-top: 0;
+}
+
 .container__how_it_works {
     display: block;
     max-width: 1440px;
