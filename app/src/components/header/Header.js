@@ -35,7 +35,21 @@ export default function Header({isMobile}) {
             <NavLink to="/kids" className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "active" : ""}>Kids</NavLink>
             </div>
-            {!isMobile ? <div>Links</div> : null}
+            {!isMobile ? 
+                <div className="wrapper__desktop_links">
+                    <ul className="container__desktop_links">
+                        <li className="desktop_link">
+                            <a></a>
+                        </li>
+                        <li className="desktop_link">
+                            <a></a>
+                        </li>
+                        <li className="desktop_link">
+                            <a></a>
+                        </li>
+                    </ul>
+                    Links
+                </div> : null}
             <div className="wrapper__cart">
             <BsBag className="cart_icon"/>
             </div>
