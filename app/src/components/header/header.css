@@ -191,7 +191,7 @@
     display: block;
 }
 
-.wrapper__svg_logo {
+.wrapper__desktop_logo {
     border: 0;
     align-items: center;
     display: flex;
@@ -199,7 +199,7 @@
     padding: 0 .625rem 0 .85rem;
 }
 
-.container__svg_logo {
+.container__desktop_logo {
     height: .875rem;
     width: 7.3875rem;
     display: block;
