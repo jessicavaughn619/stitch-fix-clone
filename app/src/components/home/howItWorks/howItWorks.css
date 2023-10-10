@@ -7,7 +7,7 @@
 .wrapper__how_it_works_kids {
     background: var(--color-bg);
     display: block;
-    margin-top: 0;
+    margin-top: 3rem;
 }
 
 .container__how_it_works {
@@ -23,7 +23,8 @@
     display: block;
     max-width: 1440px;
     text-align: center;
-    padding: 1rem 1rem 3rem;
+    padding: 1rem 1rem 0;
+    margin-top: -3rem;
     background: var(--color-white);
 }
 
@@ -76,6 +77,14 @@ img {
     font-weight: 500;
 }
 
+.kids_heading {
+    text-align: center;
+    margin: 0;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
 .detail {
     margin-right: 1rem;
     margin-left: 1rem;
@@ -85,4 +94,12 @@ img {
     line-height: 1.25rem;
     font-style: normal;
     letter-spacing: normal;
+}
+
+.kids_detail {
+    margin: .5rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
 }
