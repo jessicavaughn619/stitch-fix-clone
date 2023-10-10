@@ -96,11 +96,6 @@
     animation: active_hover .4s;
 }
 
-.category-links a:focus {
-    outline: 2px solid #008182;
-    outline-offset: 1px;
-}
-
 .wrapper__cart {
     display: flex;
     right: 1rem;
