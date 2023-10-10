@@ -50,11 +50,8 @@
     line-height: 1;
 }
 
-.first_content_step {
-    margin-top: 0;
-}
 
-.content_step {
+.content_step:not(:first-child) {
     margin-top: 1.5rem;
 }
 
