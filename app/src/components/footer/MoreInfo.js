@@ -1,23 +1,27 @@
-import './moreInfo.css'
+import './footer.css'
 import serviceData from './serviceData'
 import companyData from './companyData'
-import socialData from './socialData'
-import download from '../../images/app_store.png'
-import Social from './Social'
-import { useState } from 'react'
+import faqData from './faqData'
+import {useState, useEffect} from 'react'
 
 export default function MoreInfo() {
-    const [isSocialExpand, setIsSocialExpand] = useState(false)
-    const [activeSocial, setActiveSocial] = useState({})
+    const [isExpand, setIsExpand] = useState(false);
 
-    function handleSetIsSocialExpand(id) {
-        if (activeSocial && activeSocial.id === id) {
-            setIsSocialExpand(isSocialExpand => !isSocialExpand)
-        } else {
-            setActiveSocial(socialData.find(item => item.id === id))
-            setIsSocialExpand(true)
-        }
-    }
+    useEffect(() => {
+        const mediaQuery = window.matchMedia('(min-width: 560px)');
+    
+        const handleMediaChange = (e) => {
+          setIsExpand(e.matches);
+        };
+    
+        mediaQuery.addEventListener('change', handleMediaChange);
+    
+        setIsExpand(mediaQuery.matches);
+    
+        return () => {
+          mediaQuery.removeEventListener('change', handleMediaChange);
+        };
+      }, []);
 
     const allService = serviceData.map(item => (
         <a href={item.link} key={item.title}>{item.title}</a>
@@ -27,12 +31,8 @@ export default function MoreInfo() {
         <a href={item.link} key={item.title}>{item.title}</a>
     ))
 
-    const allSocials = socialData.map(item => (
-        <Social 
-            key={item.id}
-            item={item}
-            onSetIsSocialExpand={handleSetIsSocialExpand}
-        />
+    const allFaq = faqData.map(item => (
+        <a href={item.link} key={item.title}>{item.title}</a>
     ))
 
     return (
@@ -46,25 +46,10 @@ export default function MoreInfo() {
                 <p>The Company</p>
                 <div className="all_links">{allCompany}</div>
                 </div>
-            </div>
-            <div className="wrapper__social_links">
-                <ul className="social_links">
-                    {allSocials}
-                </ul>
-                {isSocialExpand && activeSocial.handles ? 
-                <ul className="social_handles">
-                {activeSocial.handles.map(handle => (
-                    <li className="social_handle_li" key={handle.id}>
-                        <a className="social_handle_link" href={handle.link}>
-                            <span className="social_handle_label">{handle.label}</span>
-                            <span className="social_handle_handle">{handle.handle}</span>
-                        </a>
-                    </li>
-                ))}
-                </ul> : null}
-            </div>
-            <div className="wrapper__download">
-                <img src={download} className="download_icon" alt="Link to download Stitch Fix app from the App Store"></img>
+                {isExpand ? <div className="title">
+                <p>Questions?</p>
+                <div className="all_links">{allFaq}</div>
+                </div> : null}
             </div>
         </div>
     )

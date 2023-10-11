@@ -1,3 +1,5 @@
+import './footer.css'
+
 export default function Social({ item, onSetIsSocialExpand }) {
     const { id, icon, handles, link } = item;
 
