@@ -14,7 +14,7 @@
     display: block;
     max-width: 1440px;
     text-align: center;
-    margin-top: -3rem;
+    margin: -3rem auto 0;
     padding: 1rem 1rem 3rem;
     background: var(--color-bg-light);
 }
@@ -110,14 +110,29 @@ img {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .heading {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
     .kids_heading {
         font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .detail {
+        font-size: 1.125rem;
         line-height: 1.75rem;
     }
 
     .kids_detail {
         font-size: 1.125rem;
         line-height: 1.75rem;
+    }
+
+    .container__how_it_works > h2 {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
     }
 
     .container__how_it_works_kids > h2 {
