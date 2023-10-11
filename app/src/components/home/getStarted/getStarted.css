@@ -29,6 +29,14 @@
     margin-bottom: 1rem;
 }
 
-.get_started_info h2 {
+.get_started_info > h2 {
     text-align: center;
+}
+
+@media screen and (min-width: 900px){
+    .get_started_info > h2 {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+    
 }
