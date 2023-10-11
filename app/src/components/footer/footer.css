@@ -179,6 +179,7 @@
 
 .title a{
     padding: 0;
+    width: fit-content;
 }
 
 .wrapper__social_links {
@@ -353,6 +354,19 @@
         "multi-business-line-links";
 }
 
+.all_links > a:hover {
+    border-bottom: 1px solid;
+}
+
+.all_links > a:active {
+    border-bottom: 1px solid;
+}
+
+.all_links > a:focus {
+    outline: 2px solid #008182;
+    outline-offset: 1px;
+}
+
 @media screen and (min-width: 900px){
     .wrapper__region_selector {
         display: none;
@@ -445,5 +459,11 @@
 
     .social_links.opened:after {
         display: none;
+    }
+
+    .title > p {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        font-weight: 500;
     }
 }

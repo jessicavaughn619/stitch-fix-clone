@@ -53,7 +53,9 @@ export default function Footer() {
                     <MoreInfo />
                     <SocialLinks />
                     <div className="wrapper__download">
-                        <img src={download} className="download_icon" alt="Link to download Stitch Fix app from the App Store"></img>
+                        <a href="https://itunes.apple.com/app/apple-store/id1022579925?pt=117196399&ct=global_footer&mt=8" target="_blank">
+                            <img src={download} className="download_icon" alt="Link to download Stitch Fix app from the App Store"></img>
+                        </a>
                     </div>
                     </div> : null}
                 </div>
