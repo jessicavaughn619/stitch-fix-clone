@@ -403,4 +403,11 @@
     .region_select {
         font-size: 1rem;
     }
+
+    .wrapper__footer_links {
+        border-top: 1px solid #d9d9d9;
+        flex-direction: row-reverse;
+        padding: 1rem 1rem 2.25rem;
+        text-align: initial;
+    }
 }
