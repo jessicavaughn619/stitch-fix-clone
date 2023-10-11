@@ -50,7 +50,7 @@ export default function Nav({isMobile, isMenuOpen, onSetIsMenuOpen}) {
                 </div>
             </>
             : <>
-                <a className="wrapper__desktop_logo" href="https://www.stitchfix.com/signup">
+                <a className="wrapper__desktop_logo" href="/">
                 <div className="container__desktop_logo">
                     <img src={LOGO_DESKTOP} alt="Stitch Fix logo"></img>
                     </div></a>
