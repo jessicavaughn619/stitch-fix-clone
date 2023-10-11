@@ -25,23 +25,16 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    max-width: 1440px;
     padding: 0 1.5rem;
 }
 
 .container__styles {
     margin: 0px auto;
-    max-width: 1600px;
+    max-width: 1660px;
 }
 
 .container__styles_swiper {
     overflow: hidden;
-    /* height: 500px; */
-}
-
-.swiper_image {
-    height: 500px;
-    width: fit-content;
 }
 
 .styles_label {
@@ -63,6 +56,18 @@
     border-bottom-color: transparent;
     font-weight: 500;
 
+}
+
+.swiper_slide {
+    width: fit-content;
+}
+
+.swiper_image_home {
+    height: 306px;
+}
+
+.swiper_image {
+    height: 503px;
 }
 
 .swiper-button-prev {

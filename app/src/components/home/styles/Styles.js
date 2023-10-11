@@ -32,14 +32,15 @@ export default function Styles() {
             </div>
             <div className="wrapper__styles_swiper">
                 <div className="container__styles_swiper">
-                    <swiper-container slides-per-view={location.pathname === "/" ? "1.5" : "1"} space-between="8" navigation="true" >
+                    <swiper-container slides-per-view="auto" space-between="8" navigation="true" >
                         {stylesData.slides.map(slide => (
                             <swiper-slide 
-                            key={slide.id}>
+                            key={slide.id}
+                            class="swiper_slide">
                             <div>
                             <a href={slide.link}>
                             <div>
-                            <img className="swiper_image" src={slide.image} alt={slide.imageAlt}></img>
+                            <img className={location.pathname === "/" ? "swiper_image_home" : "swiper_image"} src={slide.image} alt={slide.imageAlt}></img>
                             </div>
                             </a>
                             {(location.pathname === "/") ? <div className="styles_label">
