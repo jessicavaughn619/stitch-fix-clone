@@ -42,6 +42,11 @@
     z-index: 1;
 }
 
+.wrapper__menu_logo:focus {
+    outline: 2px solid #008182;
+    outline-offset: 1px;
+}
+
 .wrapper__menu {
     height: 24px;
     width: 24px;

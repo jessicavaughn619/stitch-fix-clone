@@ -1,6 +1,6 @@
 import './header.css'
 import LOGO_MOBILE from './images/logo-round.png'
-import { AiOutlineMenu } from 'react-icons/ai'
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import LOGO_DESKTOP from './images/stitch-fix-logo.png'
 
 export default function Nav({isMobile, isMenuOpen, onSetIsMenuOpen}) {
@@ -15,7 +15,7 @@ export default function Nav({isMobile, isMenuOpen, onSetIsMenuOpen}) {
             <>
             <div className="wrapper__menu_logo" onClick={handleClick}>
             <div className="wrapper__menu">
-            <AiOutlineMenu className="menu_icon"/>
+            {isMenuOpen ? <AiOutlineClose className="menu_icon" /> : <AiOutlineMenu className="menu_icon"/>}
             </div>
             <div className="wrapper__logo">
             <img src={LOGO_MOBILE} className="logo_circle" alt="Stitch Fix logo"/>
