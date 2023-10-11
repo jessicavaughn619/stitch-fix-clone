@@ -64,10 +64,12 @@
 
 .swiper_image_home {
     height: 306px;
+    width: auto;
 }
 
 .swiper_image {
     height: 503px;
+    width: auto;
 }
 
 .swiper-button-prev {
