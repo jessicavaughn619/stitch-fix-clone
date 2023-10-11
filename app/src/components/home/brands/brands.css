@@ -80,6 +80,10 @@
 }
 
 @media screen and (min-width: 900px) {
+    .wrapper__brands {
+        margin-top: 4rem;
+    }
+    
     .brands_info > h2 {
         text-align: center;
         font-size: 1.75rem;
