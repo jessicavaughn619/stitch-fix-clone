@@ -72,3 +72,25 @@
     font-weight: 400;
     line-height: 1.25rem;
 }
+
+@media screen and (min-width: 768px) {
+    .container__kids_look_your_best {
+        max-width: 38.625rem;
+    }
+
+    .kids_content_title > h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .content_step > h3 {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+    }
+
+    .content_step > p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+}
