@@ -30,7 +30,9 @@ export default function GetStarted() {
                 <div className="get_started_info">
                     <h2>{heading}</h2>
                 </div>
+                <a href="https://www.stitchfix.com/signup">
                 <button className="btn">{buttonText}</button>
+                </a>
             </section>
         </div>
     )
