@@ -21,11 +21,13 @@ export default function SocialLinks() {
             key={item.id}
             item={item}
             onSetIsSocialExpand={handleSetIsSocialExpand}
+            activeSocial={activeSocial}
         />
     ))
 
     return (
         <div className="wrapper__social_links">
+            <div className="container__social_links">
                 <ul className={`social_links ${isSocialExpand ? "opened" : "closed"}`}>
                     {allSocials}
                 </ul>
@@ -41,5 +43,6 @@ export default function SocialLinks() {
                 ))}
                 </ul> : null}
             </div>
+        </div>
     )
 }
