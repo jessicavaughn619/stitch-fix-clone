@@ -45,7 +45,7 @@ export default function Footer() {
                     {isExpand ? 
                     <div className="content_grid">
                     <div className="logo_region">
-                        <span className="wrapper__logo">
+                        <span className="wrapper__footer_logo">
                         <img src={LOGO_DESKTOP} alt="Stitch Fix logo"></img>
                         </span>
                         <RegionSelector />
