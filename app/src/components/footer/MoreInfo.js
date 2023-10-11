@@ -36,7 +36,6 @@ export default function MoreInfo() {
     ))
 
     return (
-        <div className="wrapper__more_info">
             <div className="container__service_company_links">
                 <div className="title">
                 <p>The Service</p>
@@ -51,6 +50,5 @@ export default function MoreInfo() {
                 <div className="all_links">{allFaq}</div>
                 </div> : null}
             </div>
-        </div>
     )
 }
