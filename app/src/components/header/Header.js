@@ -56,7 +56,7 @@ export default function Header({isMobile}) {
                 {!isMobile ? <span className="cart_title">Bag</span> : null}
                 </a>
             </div>
-            {!isMobile ? <a className="btn-secondary sign_in_button">Sign In</a>: null}
+            {!isMobile ? <a className="btn-secondary sign_in_button" href="https://www.stitchfix.com/login">Sign In</a>: null}
             </div>
         </header>
         </div>
