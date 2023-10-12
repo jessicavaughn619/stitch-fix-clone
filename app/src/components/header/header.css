@@ -39,7 +39,15 @@
 .wrapper__menu_logo {
     display: flex;
     align-items: center;
+    cursor: pointer;
     z-index: 1;
+    background-color: transparent;
+    border: 0;
+    height: 100%;
+    margin: 0;
+    outline: none;
+    padding: 0 .625rem;
+    text-align: left;
 }
 
 .wrapper__menu_logo:focus {
@@ -60,7 +68,6 @@
 
 .wrapper__logo {
     width: 2rem;
-    display: block;
 }
 
 .logo_circle {
@@ -142,7 +149,7 @@
     position: absolute;
     width: 100%;
     height: 200px;
-    z-index: 0;
+    z-index: -1;
     top: 3rem;
     left: 0;
 }

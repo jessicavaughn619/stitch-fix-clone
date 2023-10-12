@@ -74,7 +74,18 @@ body {
 }
 
 .btn:hover {
-  background-color: white;
+  background-color: #d8f7f1;
+  color: #25292d;
+}
+
+.btn:active {
+  background-color: #22bfb0;
+}
+
+.btn:focus {
+  background-color: #22bfb0;
+  outline: 2px solid #008182;
+  outline-offset: 1px;
 }
 
 .btn-secondary {

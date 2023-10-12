@@ -10,17 +10,17 @@ export default function Nav({isMobile, isMenuOpen, onSetIsMenuOpen}) {
     }
 
     return (
-        <div className="container__nav">
+        <>
             {isMobile ?
             <>
-            <div className="wrapper__menu_logo" onClick={handleClick}>
+            <button className="wrapper__menu_logo" onClick={handleClick}>
             <div className="wrapper__menu">
             {isMenuOpen ? <AiOutlineClose className="menu_icon" /> : <AiOutlineMenu className="menu_icon"/>}
             </div>
             <div className="wrapper__logo">
             <img src={LOGO_MOBILE} className="logo_circle" alt="Stitch Fix logo"/>
             </div>
-            </div>
+            </button>
             <div className={`menu_dropdown ${isMenuOpen ? "menu_open" : "menu_closed"}`}>
                 <div className="container__dropdown">
                     <div className="dropdown_content">
@@ -55,6 +55,6 @@ export default function Nav({isMobile, isMenuOpen, onSetIsMenuOpen}) {
                     <img src={LOGO_DESKTOP} alt="Stitch Fix logo"></img>
                     </div></a>
                 </>}
-        </div>
+        </>
     )
 }
