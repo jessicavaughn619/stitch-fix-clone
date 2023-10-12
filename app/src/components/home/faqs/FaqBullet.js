@@ -27,7 +27,7 @@ export default function FaqBullet({ faq }) {
             <div className="wrapper__answer">
                 <p className="answer">{answer}</p>
             </div>
-            {moreInfoTitle ? <div className="more_info">
+            {moreInfoTitle ? <div className="faq_more_info">
             <a href={moreInfoLink} className="more_info_link">
             <span className="more_info_link_content">
             {moreInfoTitle}

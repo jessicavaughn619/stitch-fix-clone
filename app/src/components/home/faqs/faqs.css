@@ -97,7 +97,7 @@
     line-height: 1.5rem;
 }
 
-.more_info {
+.faq_more_info {
     margin-top: .5rem;
     line-height: 1;
 }
@@ -114,6 +114,19 @@
     margin-right: .25rem;
     border-bottom-color: transparent;
     color: var(--color-primary-variant);
+}
+
+.more_info_link_content:hover {
+    border-bottom: 1px solid;
+}
+
+.more_info_link_content:active {
+    border-bottom: 1px solid;
+}
+
+.more_info_link_content:focus {
+    outline: 2px solid #008182;
+    outline-offset: 1px;
 }
 
 @media screen and (min-width: 900px) {
