@@ -1,13 +1,13 @@
-import IMG1 from '../../../images/fashion-woman-1.webp'
-import IMG2 from '../../../images/fashion-man-1.webp'
-import IMG3 from '../../../images/fashion-kid-1.webp'
-import IMG4 from '../../../images/fashion-home.webp'
-import STEP1 from '../../../images/women-1.webp'
-import STEP2 from '../../../images/women-2.webp'
-import STEP3 from '../../../images/women-3.webp'
-import STEP4 from '../../../images/men-1.webp'
-import STEP5 from '../../../images/men-2.webp'
-import STEP6 from '../../../images/men-3.webp'
+import IMG1 from './images/fashion-woman-1.webp'
+import IMG2 from './images/fashion-man-1.webp'
+import IMG3 from './images/fashion-kid-1.webp'
+import IMG4 from './images/fashion-home.webp'
+import STEP1 from './images/women-1.webp'
+import STEP2 from './images/women-2.webp'
+import STEP3 from './images/women-3.webp'
+import STEP4 from './images/men-1.webp'
+import STEP5 from './images/men-2.webp'
+import STEP6 from './images/men-3.webp'
 
 const data = [
     {
