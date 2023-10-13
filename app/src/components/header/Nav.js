@@ -26,7 +26,7 @@ export default function Nav({isMobile, isMenuOpen, onSetIsMenuOpen}) {
                     <div className="dropdown_content">
                         <div className="container__top_links">
                             <div className="container__first_link">
-                                <a href="https://www.stitchfix.com/">Home</a>
+                                <a href="/">Home</a>
                             </div>
                             <div className="container__second_link">
                                 <a href="https://www.stitchfix.com/impact">Social Impact</a>
