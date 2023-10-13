@@ -12,8 +12,9 @@ export default function FaqBullet({ faq }) {
     return (
         <div>
             <div className="faq_bullet_collapse">
+            <div onClick={handleClick}>
             <div className="wrapper__expand_collapse_button">
-            <button className="expand_collapse_button" onClick={handleClick}>
+            <button className="expand_collapse_button">
                 {isExpand ? 
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fillRule="evenodd" clipRule="evenodd" d="M2.23999 7.30005H7.99999H13.76V8.70005H7.99999H2.23999V7.30005Z" fill="#25282d"></path></svg> : 
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fillRule="evenodd" clipRule="evenodd" d="M7.29999 7.29999V2.23999H8.69999V7.29999H13.76V8.69999H8.69999V13.76H7.29999V8.69999H2.23999V7.29999H7.29999Z" fill="#25282d"></path></svg>}
@@ -21,6 +22,7 @@ export default function FaqBullet({ faq }) {
             </div>
             <div className="wrapper__question">
                 <h3 className="question">{question}</h3>
+            </div>
             </div>
             {isExpand ? 
             <div className="faq_bullet_expand">

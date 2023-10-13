@@ -124,7 +124,7 @@ const faqData = [
             {
                 id: 1,
                 question: "Is this a subscription service?",
-                answer: "Nope-order a Fix delivery of curated pieces whenever you'd like, then instantly buy items from your very own shop anytime. There's no subscription required.",
+                answer: "Nope—order a Fix delivery of curated pieces whenever you'd like, then instantly buy items from your very own shop anytime. There's no subscription required.",
                 moreInfoTitle: "",
                 moreInfoLink: ""
             },
@@ -132,14 +132,14 @@ const faqData = [
                 id: 2,
                 question: "What do I pay and when?",
                 answer: "If you'd like pieces selected by your style expert, there's a $20 styling fee up front—and that fee gets credited toward anything you keep. (Don't worry, we'll let you preview items before we send anything your way.) You'll also get 25% off if you keep all five items in your Fix.",
-                moreInfoTitle: "About our pricing >",
+                moreInfoTitle: "About our pricing",
                 moreInfoLink: ""
             },
             {
                 id: 3,
                 question: "What do items cost?",
                 answer: "We have items across every price range and carry thousands of just-right styles. Easily set your price preferences for each clothing category in your style quiz.",
-                moreInfoTitle: "About our pricing >",
+                moreInfoTitle: "About our pricing",
                 moreInfoLink: ""
             },
             {
@@ -180,14 +180,14 @@ const faqData = [
                 id: 2,
                 question: "What do I pay and when?",
                 answer: "If you'd like pieces selected by your style expert, there's a $20 styling fee up front—and that fee gets credited toward anything you keep. (Don't worry, we'll let you preview items before we send anything your way.) You'll also get 25% off if you keep all five items in your Fix.",
-                moreInfoTitle: "About our pricing >",
+                moreInfoTitle: "About our pricing",
                 moreInfoLink: ""
             },
             {
                 id: 3,
                 question: "What do items cost?",
                 answer: "We have items across every price range and carry thousands of just-right styles. Easily set your price preferences for each clothing category in your style quiz.",
-                moreInfoTitle: "About our pricing >",
+                moreInfoTitle: "About our pricing",
                 moreInfoLink: ""
             },
             {

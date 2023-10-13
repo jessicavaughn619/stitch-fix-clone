@@ -85,6 +85,7 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    cursor: text;
 }
 
 .wrapper__answer {
@@ -127,6 +128,14 @@
 .more_info_link_content:focus {
     outline: 2px solid #008182;
     outline-offset: 1px;
+}
+
+.more_info_link:hover > svg {
+    transform: translateX(.25rem);
+}
+
+.more_info_link > svg {
+    transition: transform .4s cubic-bezier(.23, 1, .32, 1);
 }
 
 @media screen and (min-width: 900px) {
