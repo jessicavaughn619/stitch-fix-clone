@@ -231,6 +231,11 @@
     padding: 0 .625rem 0 .85rem;
 }
 
+.wrapper__desktop_logo:focus {
+    outline: 2px solid #008182;
+    outline-offset: 1px;
+}
+
 .container__desktop_logo {
     height: .875rem;
     width: 7.3875rem;
@@ -278,9 +283,27 @@
     background-size: 100% 4px;
 }
 
+.desktop_link > a:focus,
+.container__cart:focus {
+    outline: 2px solid #008182;
+    outline-offset: 1px;
+}
+
 .sign_in_button {
     position: absolute;
     right: .85rem;
+}
+
+.sign_in_button:focus {
+    background-color: rgba(0, 129, 130, .2);
+    outline: 2px solid #008182;
+    outline-offset: 1px;
+    border: none;
+}
+
+.sign_in_button:active {
+    background-color: rgba(0, 129, 130, .2);
+    border: none;
 }
 
 @media screen and (min-width: 860px) {
