@@ -19,19 +19,22 @@ const data = [
         [{
             id: 1,
             image: STEP1,
+            imgAlt: "Woman with phone taking the Stitch Fix style quiz.",
             heading: "Take your style quiz",
-            detail: "Tell us about your style, sizes, and budget --the more we know, the more your Stylist can help."
+            detail: "Tell us about your style, sizes, and budget —the more we know, the more your Stylist can help."
         },
         {
             
             id: 2,
             image: STEP2,
+            imgAlt: "A Stitch Fix stylist carrying boxes next to women's clothing.",
             heading: "Share your style goals",
             detail: "Let your Stylist know what you're looking for via notes. They'll select 5 personalized pieces, and send your 'Fix' box straight to your door."
         },
         {
             id: 3,
             image: STEP3,
+            imgAlt: "A lay down of women's clothing and box from Stitch Fix.",
             heading: "Get your Fix",
             detail: "There's a $20 styling fee per Fix order, which is then credited to whatever you keep."
         }]
@@ -47,7 +50,7 @@ const data = [
             image: STEP1,
             imgAlt: "Woman with phone taking the Stitch Fix style quiz.",
             heading: "Take your style quiz",
-            detail: "Tell us about your style, sizes, and budget --the more we know, the more your Stylist can help."
+            detail: "Tell us about your style, sizes, and budget —the more we know, the more your Stylist can help."
         },
         {
             id: 2,
@@ -75,7 +78,7 @@ const data = [
             image: STEP4,
             imgAlt: "Man with phone taking the Stitch Fix style quiz.",
             heading: "Take your style quiz",
-            detail: "Tell us about your style, sizes, and budget -the more we know, the more your Stylist can help."
+            detail: "Tell us about your style, sizes, and budget —the more we know, the more your Stylist can help."
         },
         {
             id: 2,
@@ -103,7 +106,8 @@ const data = [
             image: "",
             imgAlt: "",
             heading: "Tell us about their style",
-            detail: "Share your price range, plus your kid's style and sizes. We'll send 10 pieces just for them. No subscription required."},
+            detail: "Share your price range, plus your kid's style and sizes. We'll send 10 pieces just for them. No subscription required."
+        },
         {
             id: 2,
             image: "",
@@ -116,8 +120,8 @@ const data = [
             image: "",
             imgAlt: "",
             heading: "Free shipping & returns",
-            detail: "Always. We even include a prepaid return envelope."}
-        ]
+            detail: "Always. We even include a prepaid return envelope."
+        }]
     }
 ]
 
