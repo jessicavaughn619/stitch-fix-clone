@@ -1,9 +1,74 @@
 import './styles.css'
 import data from './stylesData'
 import { useLocation } from 'react-router-dom'
+import { useEffect, useRef } from 'react'
 
 export default function Styles() {
     const location = useLocation();
+    const swiperRef = useRef(null);
+
+    useEffect(() => {
+        const swiperContainer = swiperRef.current;
+        const params = {
+            navigation: true,
+            slidesPerView: 'auto',
+            spaceBetween: 8,
+            navigation: true,
+            injectStyles: [
+                `
+                .swiper-button-next,
+                .swiper-button-prev {
+                    background-color: #25282d;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    color: var(--color-white);
+                    border-radius: 10rem;
+                    display: inline-block;
+                    height: 16px;
+                    width: 16px;
+                    padding: 1rem;
+                    transition: background-color .4s, opacity .4s ease;
+                    opacity: 0;
+                    outline: none;
+                    outline-offset: 0;
+                }
+                .swiper-button-prev {
+                    background-image: url(/arrow.svg);
+                    transform: rotate(180deg);
+                }
+                .swiper-button-next {
+                    background-image: url(/arrow.svg);
+                }
+                .swiper-button-prev:hover,
+                .swiper-button-next:hover {
+                    background-color: #515762;
+                }
+                .swiper-button-prev:focus,
+                .swiper-button-next:focus {
+                    outline: 2px solid #008182;
+                    outline-offset: 1px;
+                }
+                .swiper-button-prev:active,
+                .swiper-button-next:active {
+                    background-color: #000000;
+                }
+                .swiper-button-next > svg,
+                .swiper-button-prev > svg {
+                    display: none;
+                }
+                .swiper-button-disabled {
+                    display: none;
+                }
+                .swiper-initialized:hover .swiper-button-prev,
+                .swiper-initialized:hover .swiper-button-next {
+                    opacity: 1;
+                }
+                `
+            ]
+        };
+        Object.assign(swiperContainer, params);
+        swiperContainer.initialize();
+    }, []); 
 
     let stylesData;
     
@@ -32,7 +97,7 @@ export default function Styles() {
             </div>
             <div className="wrapper__styles_swiper">
                 <div className="container__styles_swiper">
-                    <swiper-container slides-per-view="auto" space-between="8" navigation="true" >
+                    <swiper-container ref={swiperRef} init="false" >
                         {stylesData.slides.map(slide => (
                             <swiper-slide 
                             key={slide.id}
