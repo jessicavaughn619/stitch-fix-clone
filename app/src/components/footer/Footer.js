@@ -3,11 +3,11 @@ import { useState, useEffect } from 'react'
 import MoreInfo from './MoreInfo'
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai'
 import SocialLinks from './SocialLinks'
-import download from '../../images/app_store.png'
 import FooterLinks from './FooterLinks'
 import MobileRegionFaq from './MobileRegionFaq'
 import RegionSelector from './RegionSelector'
 import LOGO_DESKTOP from '../header/images/stitch-fix-logo.png'
+import download from './images/app_store.png'
 
 export default function Footer() {
     const [isExpand, setIsExpand] = useState(false)

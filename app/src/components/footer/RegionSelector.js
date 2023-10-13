@@ -1,5 +1,5 @@
-import USLogo from '../../images/region/united-states.png'
-import UKLogo from '../../images/region/united-kingdom.png'
+import USLogo from './images/united-states.png'
+import UKLogo from './images/united-kingdom.png'
 import './footer.css'
 import {useState } from 'react'
 
