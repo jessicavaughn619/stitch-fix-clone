@@ -125,6 +125,11 @@
     height: 18px;
 }
 
+.region_select {
+    font-size: .875rem;
+    width: 90%;
+}
+
 .wrapper__footer_links {
     display: flex;
     flex-direction: column;
