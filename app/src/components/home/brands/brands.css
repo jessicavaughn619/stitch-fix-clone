@@ -60,7 +60,18 @@
 }
 
 .brands_link:hover {
-    border-bottom: none;
+    border-bottom-color: transparent;
+    color: #007871;
+}
+
+.brands_link:focus {
+    outline: 2px solid #008182;
+    outline-offset: 1px;
+    color: #007871;
+}
+
+.brands_link:active {
+    color: #007871;
 }
 
 @media screen and (min-width: 560px) {
