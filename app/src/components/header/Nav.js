@@ -26,18 +26,18 @@ export default function Nav({isMobile, isMenuOpen, onSetIsMenuOpen}) {
                     <div className="dropdown_content">
                         <div className="container__top_links">
                             <div className="container__first_link">
-                                <a href="/">Home</a>
+                                <a className="mobile_link" href="/">Home</a>
                             </div>
                             <div className="container__second_link">
-                                <a href="https://www.stitchfix.com/impact">Social Impact</a>
+                                <a className="mobile_link" href="https://www.stitchfix.com/impact">Social Impact</a>
                             </div>
                         </div>
                         <div className="container__bottom_links">
                             <div className="container__first_link">
-                                <a href="https://support.stitchfix.com/hc/en-us/sections/360006899113">FAQ</a>
+                                <a className="mobile_link" href="https://support.stitchfix.com/hc/en-us/sections/360006899113">FAQ</a>
                             </div>
                             <div className="container__second_link">
-                                <a href="https://www.stitchfix.com/gifts">Gift Cards</a>
+                                <a className="mobile_link" href="https://www.stitchfix.com/gifts">Gift Cards</a>
                             </div>
                             <div className="container__sign_up_button">
                                 <a href="https://www.stitchfix.com/login">

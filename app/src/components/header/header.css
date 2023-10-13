@@ -175,10 +175,19 @@
     align-items: stretch;
 }
 
-.dropdown_content > a {
+.mobile_link {
     border-bottom-color: transparent;
-    border-bottom: 1px solid;
     text-decoration: none;
+}
+
+.mobile_link:hover, 
+.mobile_link:active {
+    border-bottom: 1px solid;
+}
+
+.mobile_link:focus {
+    outline: 2px solid #008182;
+    outline-offset: 1px;
 }
 
 .container__top_links {
