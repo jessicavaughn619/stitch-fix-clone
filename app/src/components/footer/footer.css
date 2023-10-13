@@ -69,6 +69,7 @@
     display: inline-flex;
     justify-content: center;
     width: auto;
+    padding-right: 1rem;
 }
 
 .expand_collapse {
