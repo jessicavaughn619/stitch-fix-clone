@@ -12,8 +12,6 @@ export default function Header({isMobile}) {
         setIsMenuOpen(isMenuOpen => !isMenuOpen);
     }
 
-    console.log(isMenuOpen)
-
     return (
         <div className="top_wrapper__header">
         <header className="wrapper__header">
